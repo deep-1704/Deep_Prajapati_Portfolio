@@ -1,6 +1,7 @@
 {
   "name": "deep_prajapati_portfolio",
   "version": "0.1.0",
+  "homepage": "http://deep-1704.github.io/Deep_Prajapati_Portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
