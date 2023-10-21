@@ -1,0 +1,43 @@
+.introContainer{
+    display: flex;
+    justify-content:space-around;
+}
+.domainInfo{
+    display: flex;
+    justify-content: left;
+    gap: 5%;
+}
+.domainTxt{
+    color: var(--tc1);
+    font-family: var(--PortFontRegular);
+    font-size: 40px;
+}
+.domainAni{
+    color: var(--tc4);
+    font-family: var(--PortFontBold);
+    font-size: 25px;
+    background-color: var(--tc3);
+    padding: 10px;
+    width: fit-content;
+    animation-name: domainAnimation;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes domainAnimation {
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    70%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{opacity: 0;}
+}

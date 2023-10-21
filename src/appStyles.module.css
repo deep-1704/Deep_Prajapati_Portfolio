@@ -1,10 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@font-face {
+    font-family: 'Open_Sans_light';
+    src: url('./assets/Open_Sans/static/OpenSans-Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open_Sans_regular';
+    src: url('./assets/Open_Sans/static/OpenSans-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open_Sans_EBold';
+    src: url('./assets/Open_Sans/static/OpenSans-ExtraBold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open_Sans_Bold';
+    src: url('./assets/Open_Sans/static/OpenSans-Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     --bg: #0B0C10;
     --tc1: #66FCF1;
     --tc2: #C5C6C7;
     --tc3: #45A29E;
     --tc4: #1F2833;
+    --PortFontLight: 'Open_Sans_light','Ubuntu', sans-serif;
+    --PortFontRegular: 'Open_Sans_regular','Ubuntu', sans-serif;
+    --PortFontEBold: 'Open_Sans_EBold','Ubuntu', sans-serif;
+    --PortFontBold: 'Open_Sans_Bold','Ubuntu', sans-serif;
     background-color: var(--bg);
 }
 a{

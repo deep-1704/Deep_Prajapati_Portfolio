@@ -1,11 +1,10 @@
 import styles from "./styles.module.css";
-// import { HashLink } from 'react-router-hash-link';
 
 let Navbar = () => {
     return (
         <div className={styles.navContainer}>
             <div className={styles.navButton}>
-                <a href="./" style={{ color: "var(--tc2)" }}>Home</a>
+                <a href="#intro" style={{ color: "var(--tc2)" }}>Home</a>
             </div>
             <div className={styles.navButton}>
                 <a href="./" style={{ color: "var(--tc2)" }}>Education</a>
