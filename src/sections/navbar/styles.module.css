@@ -1,0 +1,16 @@
+.navContainer{
+    position: sticky;
+    width: 100%;
+    height: 60px;
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.navButton{
+    width: 10%;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-size: 1.4vw;
+    font-family: 'Ubuntu', sans-serif;
+}
