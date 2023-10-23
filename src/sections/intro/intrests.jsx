@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./styles.module.css";
 
-let arr = ["Full-stack Web Development","Competitive Programming","Java Development"];
+let arr = ["Full-stack Web Development","Competitive Programming","Java Development","Hardware Architecture"];
 
 let Intrests = () =>{
     let [intrest,setIntrest] = useState(0);

@@ -1,6 +1,7 @@
 .introContainer{
     display: flex;
     justify-content:space-around;
+    padding-top: 240px;
 }
 .domainInfo{
     display: flex;
@@ -16,28 +17,28 @@
     color: var(--tc4);
     font-family: var(--PortFontBold);
     font-size: 25px;
-    background-color: var(--tc3);
+    background-color: var(--tc1);
     padding: 10px;
     width: fit-content;
     animation-name: domainAnimation;
     animation-duration: 1500ms;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
 }
 @keyframes domainAnimation {
     0%{
         transform: translateY(-50px);
         opacity: 0;
     }
-    50%{
+    30%{
         opacity: 1;
         transform: translateY(0px);
     }
-    70%{
+    95%{
         opacity: 1;
+        transform: translateY(0px);
     }
-    80%{
+    100%{
+        transform: translateY(-50px);
         opacity: 0;
     }
-    100%{opacity: 0;}
 }

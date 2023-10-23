@@ -1,0 +1,68 @@
+.achTitle{
+    color: var(--tc2);
+    font-size: 3.5vw;
+    font-family: var(--PortFontEBold);
+    text-align: center;
+}
+.achDisc{
+    color: var(--tc2);
+    font-family: var(--PortFontRegular);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5vw;
+}
+.achListSec{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+.achievementsContainer{
+    padding-top: 100px;
+}
+.achCardContainer{
+    width: 350px;
+    padding: 20px 10px 20px 10px;
+    border: 1px solid var(--tc1);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.achCardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.achCardPlatLogo{
+    width: 30%;
+}
+.achCardProfileInfo{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.achCardPlatName a{
+    color: var(--tc2) ;
+    font-family: var(--PortFontBold);
+    font-size: 30px;
+    text-decoration: underline;
+}
+.achCardPlatName a:hover{
+    color: var(--tc3);
+}
+.achCardPlatStats{
+    color: var(--tc1);
+    font-family: var(--PortFontRegular);
+    font-size: 17px;
+}
+.achCardAchList{
+    color: var(--tc2);
+    font-family: var(--PortFontLight);
+    letter-spacing: 1px;
+    font-size: 20px;
+}

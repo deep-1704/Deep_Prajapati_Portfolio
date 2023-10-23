@@ -1,0 +1,58 @@
+.EduSection{
+    padding-top: 100px;
+}
+.eduContainer{
+    background-color: var(--tc1);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.eduCards{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+.eduTitle{
+    text-align: center;
+    font-family: 'Open_Sans_EBold';
+    color: var(--tc4);
+    font-size: 3.5vw;
+    /* padding-top: 15px; */
+    padding-bottom: 30px;
+}
+.eduCardContainer{
+    width: 27%;
+    background-color: var(--bg);
+    padding: 2%;
+    border-radius: 20px;
+}
+.eduCardLogo{
+    display: flex;
+    justify-content: center;
+}
+.eduCardTitle{
+    color: var(--tc1);
+    text-align: center;
+    font-family: 'Open_Sans_Regular';
+    margin-top: 30px;
+    letter-spacing: 0.5px;
+    padding-bottom: 25px;
+}
+.eduCardInfoSec{
+    margin-top: 15px;
+}
+.eduCardInfo{
+    display: flex;
+    gap: 3%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.eduCardInfoKey{
+    color: var(--tc1);
+    font-family: 'Open_Sans_regular';
+    letter-spacing: 1px;
+}
+.eduCardInfoVal{
+    color: var(--tc2);
+    font-family: 'Open_Sans_light';
+    letter-spacing: 1px;
+}
