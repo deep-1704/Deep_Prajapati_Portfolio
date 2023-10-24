@@ -4,6 +4,8 @@ import Intro from "./sections/intro/intro";
 import Education from "./sections/education/education";
 import Achievements from "./sections/achievements/achievements";
 import Skills from "./sections/skills/skills";
+import Projects from "./sections/projects/projects";
+import Contacts from "./sections/contact/contacts";
 let App = () => {
     return (
         <div className={styles.Container}>
@@ -12,9 +14,8 @@ let App = () => {
             <Education />
             <Achievements />
             <Skills />
-            <br/><br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/><br/><br/>
+            <Projects />
+            <Contacts />
             <br/><br/><br/><br/><br/><br/><br/>
             <br/><br/><br/><br/><br/><br/><br/>
         </div>

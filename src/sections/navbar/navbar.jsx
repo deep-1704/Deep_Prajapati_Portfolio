@@ -16,7 +16,7 @@ let Navbar = () => {
                 <a href="#skills" style={{ color: "var(--tc2)" }}>Skills</a>
             </div>
             <div className={styles.navButton}>
-                <a href="./" style={{ color: "var(--tc2)" }}>Projects</a>
+                <a href="#projects" style={{ color: "var(--tc2)" }}>Projects</a>
             </div>
             <div className={styles.navButton}>
                 <a href="./" style={{ color: "var(--tc2)" }}>Contact</a>

@@ -1,0 +1,95 @@
+.projectsContainer {
+    padding-top: 100px;
+}
+
+.projectsTitle {
+    color: var(--tc2);
+    font-family: var(--PortFontEBold);
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.projectsDesc {
+    color: var(--tc2);
+    font-family: var(--PortFontRegular);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5vw;
+}
+
+.projectsList {
+    margin-top: 100px;
+}
+
+.projectSection {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.projectImage {
+    max-width: 800px;
+}
+
+.projectInfo {
+    min-width: 400px;
+}
+
+.projectTitle {
+    color: var(--tc2);
+    font-family: var(--PortFontBold);
+    font-size: 35px;
+}
+
+.projectDescription {
+    color: var(--tc1);
+    font-family: var(--PortFontRegular);
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.projectDetails {
+    color: var(--tc2);
+    font-family: var(--PortFontLight);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.projectTechstack {
+    display: flex;
+    gap: 5px;
+}
+
+.projectTechstackTitle {
+    color: var(--tc2);
+    font-family: var(--PortFontBold);
+    font-size: 20px;
+}
+
+.projectTechstackContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.projectTechItem{
+    text-align: center;
+    color: var(--tc1);
+    font-family: var(--PortFontLight);
+    font-size: 15px;
+    padding: 10px;
+    background-color: var(--tc3);
+    border-radius: 10px;
+}
+.projectGitLink{
+    color: var(--tc4) !important;
+    background-color: var(--tc1);
+    width: fit-content;
+    padding: 10px 10px 0 10px;
+    border-radius: 10px;
+    font-family: var(--PortFontRegular);
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
