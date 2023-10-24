@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Deep_Prajapati_Portfolio/static/css/main.292202d6.css",
-    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.3ed93f9b.js",
+    "main.css": "/Deep_Prajapati_Portfolio/static/css/main.1b942b66.css",
+    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.427ab0a0.js",
     "static/media/AskaDocSS.png": "/Deep_Prajapati_Portfolio/static/media/AskaDocSS.ebe98a94a403caa2dfd3.png",
     "static/media/intro_img1.png": "/Deep_Prajapati_Portfolio/static/media/intro_img1.a124725eff14e9d2bbcc.png",
     "static/media/OpenSans-ExtraBold.ttf": "/Deep_Prajapati_Portfolio/static/media/OpenSans-ExtraBold.6a7a95b823f21d230e6d.ttf",
@@ -26,11 +26,11 @@
     "static/media/hamMenu.svg": "/Deep_Prajapati_Portfolio/static/media/hamMenu.841d356ccca1879651190f2404578113.svg",
     "static/media/linkSvg.svg": "/Deep_Prajapati_Portfolio/static/media/linkSvg.1c8681d46cf6dacecd60885082dc8e9c.svg",
     "index.html": "/Deep_Prajapati_Portfolio/index.html",
-    "main.292202d6.css.map": "/Deep_Prajapati_Portfolio/static/css/main.292202d6.css.map",
-    "main.3ed93f9b.js.map": "/Deep_Prajapati_Portfolio/static/js/main.3ed93f9b.js.map"
+    "main.1b942b66.css.map": "/Deep_Prajapati_Portfolio/static/css/main.1b942b66.css.map",
+    "main.427ab0a0.js.map": "/Deep_Prajapati_Portfolio/static/js/main.427ab0a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.292202d6.css",
-    "static/js/main.3ed93f9b.js"
+    "static/css/main.1b942b66.css",
+    "static/js/main.427ab0a0.js"
   ]
 }

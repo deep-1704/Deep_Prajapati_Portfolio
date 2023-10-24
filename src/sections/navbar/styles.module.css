@@ -25,6 +25,7 @@
     display: none;   
 }
 .hamMenuList{
+    display: none;
     list-style: none;
     font-family: var(--PortFontLight);
     background-color: var(--bg);
