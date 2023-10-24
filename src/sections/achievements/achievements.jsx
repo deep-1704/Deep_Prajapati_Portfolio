@@ -29,7 +29,7 @@ let Achievements = () =>{
             "platLogo" : leetCodeLogo,
             "platLink" : "https://leetcode.com/lemonadeCode_1704/",
             "platName" : "LeetCode",
-            "platStats" : "(max)Rating - 1695",
+            "platStats" : "(max)Rating - 1765",
             "achList" : [
                 "Rank 678 out of 19,035 participants, LeetCode Weekly Contest 368 "
             ]
