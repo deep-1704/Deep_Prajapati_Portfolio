@@ -16,8 +16,6 @@ let App = () => {
             <Skills />
             <Projects />
             <Contacts />
-            <br/><br/><br/><br/><br/><br/><br/>
-            <br/><br/><br/><br/><br/><br/><br/>
         </div>
     );
 }

@@ -39,6 +39,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: inherit;
 }
 .Container{
     width: 100%;

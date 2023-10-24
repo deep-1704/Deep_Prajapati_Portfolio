@@ -52,8 +52,9 @@
 .projectDetails {
     color: var(--tc2);
     font-family: var(--PortFontLight);
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
+    line-height: 35px;
 }
 
 .projectTechstack {

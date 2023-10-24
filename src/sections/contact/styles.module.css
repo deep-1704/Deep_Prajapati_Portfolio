@@ -1,3 +1,37 @@
 .contactsContainer{
     background-color: var(--tc1);
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.endQuote{
+    text-align: center;
+    font-family: var(--PortFontBold);
+    font-size: 20px;
+}
+.contactsList{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.contactsListItem{
+    border: 2px solid var(--tc4);
+    border-radius: 25px;
+    padding: 10px;
+}
+.copyright{
+    text-align: center;
+    font-family: var(--PortFontLight);
+    font-size: 15px;
+    margin-top: 40px;
+    color: var(--tc4);
+}
+.madeWith{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: var(--PortFontRegular);
+    gap: 5px;
+    color: var(--tc4);
 }

@@ -42,8 +42,8 @@ let Achievements = () =>{
                 <div className={styles.achDisc}>I'm proud to have achievements  in some of the well-reputed platforms.</div>
                 <div className={styles.achListSec}>
                     <AchCard info={info[0]}/>
-                    <AchCard info={info[1]}/>
                     <AchCard info={info[2]}/>
+                    <AchCard info={info[1]}/>
                 </div>  
             </div>
         </div>

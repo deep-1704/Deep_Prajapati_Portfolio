@@ -1,26 +1,31 @@
 import styles from "./styles.module.css";
 import reactLogo from "../../assets/reactLogo.svg";
+import linkedInLogo from "../../assets/linkedinLogo.svg";
+import githubLogo from "../../assets/githubLogo.svg";
+import mailLogo from "../../assets/mailLogo.svg";
+import instaLogo from "../../assets/instagramLogo.svg";
 
-let Contacts = () =>{
+let Contacts = () => {
     return (
         <div className={styles.contactsContainer}>
             <div className={styles.endQuote}>Learning, adapting, and achieving.</div>
             <div className={styles.contactsList}>
-                <div className={styles.contactsListItem}>
-                    
-                </div>
-                <div className={styles.contactsListItem}>
-
-                </div>
-                <div className={styles.contactsListItem}>
-
-                </div>
-                <div className={styles.contactsListItem}>
-
-                </div>
+                <a href="https://www.linkedin.com/in/deep1704/" target="_blank" rel="noreferrer" className={styles.contactsListItem}>
+                    <img src={linkedInLogo} alt="Linkedin" width="25px" />
+                </a>
+                <a href="https://github.com/deep-1704" target="_blank" rel="noreferrer" className={styles.contactsListItem}>
+                    <img src={githubLogo} alt="GitHub" width="25px" />
+                </a>
+                <a href="mailto:dp124551634@gmail.com" target="_blank" rel="noreferrer" className={styles.contactsListItem}>
+                    <img src={mailLogo} alt="Mail me" width="25px" />
+                </a>
+                <a href="https://www.instagram.com/deepinsta_69/" target="_blank" rel="noreferrer" className={styles.contactsListItem}>
+                    <img src={instaLogo} alt="Linkedin" width="25px" />
+                </a>
             </div>
             <div className={styles.copyright}>Handcrafted by me ©️ 2023</div>
-            <div className={styles.madeWith}>Made with <img src={reactLogo} alt="react" width="20px"/> React</div>
+            <div className={styles.madeWith}>
+                <span>Made with </span><img src={reactLogo} alt="react" width="20px" /> <a href="https://react.dev/" target="_blank" rel="noreferrer" color="var(--tc4) !important">React</a></div>
         </div>
     );
 }
