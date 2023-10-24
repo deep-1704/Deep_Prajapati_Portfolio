@@ -41,6 +41,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+ul{
+    list-style: inherit;
+}
 .Container{
     width: 100%;
 }

@@ -7,28 +7,16 @@ let Intro = () => {
         <div className={styles.introContainer} id="intro">
             <div className={styles.introduction}>
                 <div className={styles.greetings}>
-                    <span style={{
-                        color:"var(--tc2)",
-                        fontFamily:"var(--PortFontEBold)",
-                        fontSize:"70px"
-                    }}>Hii there!</span><br/>
-                    <span style={{
-                        color:"var(--tc1)",
-                        fontFamily:"var(--PortFontLight)",
-                        fontSize:"50px"
-                    }}>I'm </span>
-                    <span style={{
-                        color:"var(--tc2)",
-                        fontFamily:"var(--PortFontEBold)",
-                        fontSize:"70px"
-                    }}>Deep Prajapati</span>
+                    <span className={styles.greetings1}>Hii there!</span><br/>
+                    <span className={styles.greetings2}>I'm </span>
+                    <span className={styles.greetings1}>Deep Prajapati</span>
                 </div><br/>
                 <div className={styles.domainInfo}>
                     <div className={styles.domainTxt}>I am into </div>
                     <Intrests />
                 </div>
             </div>
-            <div className={styles.devIllustration}><img src={devImage} alt="Dev" width="500px"/></div>
+            <div className={styles.devIllustration}><img src={devImage} alt="Dev" width="100%"/></div>
         </div>
     );
 }

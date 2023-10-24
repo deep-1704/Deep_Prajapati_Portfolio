@@ -8,19 +8,19 @@ let Educard = ({info}) => {
             <div className={styles.eduCardTitle}>{info.title}</div>
             <div className={styles.eduCardInfoSec}>
                 <div className={styles.eduCardInfo}>
-                    <div className={styles.eduCardInfoKey}>Major:</div>
+                    <div className={styles.eduCardInfoKey}>Major</div>
                     <div className={styles.eduCardInfoVal}>{info.major}</div>
                 </div>
                 <div className={styles.eduCardInfo}>
-                    <div className={styles.eduCardInfoKey}>Degree:</div>
+                    <div className={styles.eduCardInfoKey}>Degree</div>
                     <div className={styles.eduCardInfoVal}>{info.degree}</div>
                 </div>
                 <div className={styles.eduCardInfo}>
-                    <div className={styles.eduCardInfoKey}>Duration:</div>
+                    <div className={styles.eduCardInfoKey}>Duration</div>
                     <div className={styles.eduCardInfoVal}>{info.duration}</div>
                 </div>
                 {info.courses?(<div className={styles.eduCardInfo}>
-                    <div className={styles.eduCardInfoKey}>Courses:</div>
+                    <div className={styles.eduCardInfoKey}>Courses</div>
                     <div className={styles.eduCardInfoVal}>
                         <ul>
                             {info.courses.map(val => {

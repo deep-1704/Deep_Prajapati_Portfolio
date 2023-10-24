@@ -10,14 +10,14 @@
     color: var(--tc4);
     font-family: var(--PortFontEBold);
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 50px;
 }
 .skillsDescription{
     text-align: center;
     color: var(--tc4);
     font-family: var(--PortFontRegular);
     margin-top: 20px;
-    font-size: 1.5vw;
+    font-size: 20px;
 }
 .skillListContainer{
     margin-top:30px;
@@ -56,7 +56,7 @@
     width: 25%;
 }
 .skillsCatLogo{
-    width: 30%;
+    width: 70px;
 }
 .skillsCatTitle{
     color: var(--tc4);
@@ -70,4 +70,19 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+}
+@media screen and (max-width:730px) {
+    .skillListContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skillsFrontend, .skillsBackend, .skillsDevtools{
+        border-right: none;
+        border-bottom: 1px solid var(--tc4);
+    }
+    .skillsFrontend, .skillsBackend, .skillsDevtools, .skillsHardware{
+        padding-bottom: 50px;
+        padding-top: 30px;
+        width: fit-content;
+    }
 }

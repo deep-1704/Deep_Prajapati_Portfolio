@@ -1,3 +1,4 @@
+import Hamburger from "./hamBurger";
 import styles from "./styles.module.css";
 
 let Navbar = () => {
@@ -19,8 +20,9 @@ let Navbar = () => {
                 <a href="#projects" style={{ color: "var(--tc2)" }}>Projects</a>
             </div>
             <div className={styles.navButton}>
-                <a href="./" style={{ color: "var(--tc2)" }}>Contact</a>
+                <a href="#contact" style={{ color: "var(--tc2)" }}>Contact</a>
             </div>
+            <Hamburger />
         </div>
     );
 }

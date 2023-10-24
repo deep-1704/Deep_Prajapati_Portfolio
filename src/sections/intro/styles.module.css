@@ -20,9 +20,50 @@
     background-color: var(--tc1);
     padding: 10px;
     width: fit-content;
+    text-align: center;
+    height: fit-content;
     animation-name: domainAnimation;
     animation-duration: 1500ms;
     animation-iteration-count: infinite;
+}
+.greetings1{
+    color:var(--tc2);
+    font-family:var(--PortFontEBold);
+    font-size:70px;
+}
+.greetings2{
+    color:var(--tc1);
+    font-family:var(--PortFontLight);
+    font-size:50px;
+}
+.devIllustration{
+    max-width: 500px;
+}
+@media screen and (max-width: 1050px) {
+    .introContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .domainTxt{
+        font-size: 5vw;
+    }
+    .domainAni{
+        font-size: 2.5vw;
+    }
+    .domainInfo{
+        justify-content: center;
+    }
+    .greetings{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 350px) {
+    .greetings1{
+        font-size: 15.5vw;
+    }
+    .greetings2{
+        font-size: 8.5vw;
+    }
 }
 @keyframes domainAnimation {
     0%{

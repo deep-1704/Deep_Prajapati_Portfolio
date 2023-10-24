@@ -7,7 +7,7 @@ import instaLogo from "../../assets/instagramLogo.svg";
 
 let Contacts = () => {
     return (
-        <div className={styles.contactsContainer}>
+        <div className={styles.contactsContainer} id="contact">
             <div className={styles.endQuote}>Learning, adapting, and achieving.</div>
             <div className={styles.contactsList}>
                 <a href="https://www.linkedin.com/in/deep1704/" target="_blank" rel="noreferrer" className={styles.contactsListItem}>
