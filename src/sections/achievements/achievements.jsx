@@ -13,7 +13,7 @@ let Achievements = () =>{
             "platName" : "CodeChef",
             "platStats" : "(max)⭐️⭐️⭐️ - 1669",
             "achList" : [
-                "Rank 45 out of 3635 participants, CodeChef Starters 99 (div-3)"
+                "Rank 45 out of 3.6k participants, CodeChef Starters 99 (div-3)"
             ]
         },
         {
@@ -22,7 +22,7 @@ let Achievements = () =>{
             "platName" : "Codeforces",
             "platStats" : "(max)Pupil - 1203",
             "achList" : [
-                "Rank 2517 out of 41,789 participants, Codeforces round 898 (div-4) "
+                "Rank 2517 out of 41k participants, Codeforces round 898 (div-4) "
             ]
         },
         {
@@ -31,7 +31,7 @@ let Achievements = () =>{
             "platName" : "LeetCode",
             "platStats" : "(max)Rating - 1765",
             "achList" : [
-                "Rank 678 out of 19,035 participants, LeetCode Weekly Contest 368 "
+                "Rank 1117 out of 19k participants, LeetCode Weekly Contest 368 "
             ]
         },
     ]

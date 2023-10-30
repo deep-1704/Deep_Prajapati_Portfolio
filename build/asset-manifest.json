@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Deep_Prajapati_Portfolio/static/css/main.1b942b66.css",
-    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.427ab0a0.js",
+    "main.css": "/Deep_Prajapati_Portfolio/static/css/main.74f8991f.css",
+    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.8e0593b4.js",
     "static/media/AskaDocSS.png": "/Deep_Prajapati_Portfolio/static/media/AskaDocSS.ebe98a94a403caa2dfd3.png",
     "static/media/intro_img1.png": "/Deep_Prajapati_Portfolio/static/media/intro_img1.a124725eff14e9d2bbcc.png",
     "static/media/OpenSans-ExtraBold.ttf": "/Deep_Prajapati_Portfolio/static/media/OpenSans-ExtraBold.6a7a95b823f21d230e6d.ttf",
@@ -12,7 +12,6 @@
     "static/media/reactLogo.svg": "/Deep_Prajapati_Portfolio/static/media/reactLogo.304b3395c6e1f56fd46e9cf4dfb51097.svg",
     "static/media/githubLogo.svg": "/Deep_Prajapati_Portfolio/static/media/githubLogo.2c837e5d34a9e6f105c6c7be0fbc68a3.svg",
     "static/media/highSchooLogo.svg": "/Deep_Prajapati_Portfolio/static/media/highSchooLogo.d70593be88c80358f0fa3434cf274a73.svg",
-    "static/media/instagramLogo.svg": "/Deep_Prajapati_Portfolio/static/media/instagramLogo.c4c33217e83da57ee3d321a50a6ff0f1.svg",
     "static/media/devToolsLogo.svg": "/Deep_Prajapati_Portfolio/static/media/devToolsLogo.fd93730e4026d93a13d8ebc8af4fb049.svg",
     "static/media/schoolLogo.svg": "/Deep_Prajapati_Portfolio/static/media/schoolLogo.3c48c421cfbb04a56a1cd5f2e36731fa.svg",
     "static/media/frontendLogo.svg": "/Deep_Prajapati_Portfolio/static/media/frontendLogo.a650204e4ca440cdede4222aeb17f3db.svg",
@@ -26,11 +25,11 @@
     "static/media/hamMenu.svg": "/Deep_Prajapati_Portfolio/static/media/hamMenu.841d356ccca1879651190f2404578113.svg",
     "static/media/linkSvg.svg": "/Deep_Prajapati_Portfolio/static/media/linkSvg.1c8681d46cf6dacecd60885082dc8e9c.svg",
     "index.html": "/Deep_Prajapati_Portfolio/index.html",
-    "main.1b942b66.css.map": "/Deep_Prajapati_Portfolio/static/css/main.1b942b66.css.map",
-    "main.427ab0a0.js.map": "/Deep_Prajapati_Portfolio/static/js/main.427ab0a0.js.map"
+    "main.74f8991f.css.map": "/Deep_Prajapati_Portfolio/static/css/main.74f8991f.css.map",
+    "main.8e0593b4.js.map": "/Deep_Prajapati_Portfolio/static/js/main.8e0593b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b942b66.css",
-    "static/js/main.427ab0a0.js"
+    "static/css/main.74f8991f.css",
+    "static/js/main.8e0593b4.js"
   ]
 }

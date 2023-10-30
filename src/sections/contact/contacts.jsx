@@ -3,7 +3,6 @@ import reactLogo from "../../assets/reactLogo.svg";
 import linkedInLogo from "../../assets/linkedinLogo.svg";
 import githubLogo from "../../assets/githubLogo.svg";
 import mailLogo from "../../assets/mailLogo.svg";
-import instaLogo from "../../assets/instagramLogo.svg";
 
 let Contacts = () => {
     return (
@@ -11,16 +10,13 @@ let Contacts = () => {
             <div className={styles.endQuote}>Learning, adapting, and achieving.</div>
             <div className={styles.contactsList}>
                 <a href="https://www.linkedin.com/in/deep1704/" target="_blank" rel="noreferrer" className={styles.contactsListItem}>
-                    <img src={linkedInLogo} alt="Linkedin" width="25px" />
+                    <img src={linkedInLogo} alt="Linkedin" width="20px" />
                 </a>
                 <a href="https://github.com/deep-1704" target="_blank" rel="noreferrer" className={styles.contactsListItem}>
-                    <img src={githubLogo} alt="GitHub" width="25px" />
+                    <img src={githubLogo} alt="GitHub" width="20px" />
                 </a>
                 <a href="mailto:dp124551634@gmail.com" target="_blank" rel="noreferrer" className={styles.contactsListItem}>
-                    <img src={mailLogo} alt="Mail me" width="25px" />
-                </a>
-                <a href="https://www.instagram.com/deepinsta_69/" target="_blank" rel="noreferrer" className={styles.contactsListItem}>
-                    <img src={instaLogo} alt="Linkedin" width="25px" />
+                    <img src={mailLogo} alt="Mail me" width="20px" />
                 </a>
             </div>
             <div className={styles.copyright}>Handcrafted by me ©️ 2023</div>

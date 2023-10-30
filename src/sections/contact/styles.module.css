@@ -17,8 +17,9 @@
 }
 .contactsListItem{
     border: 2px solid var(--tc4);
-    border-radius: 25px;
+    border-radius: 30px;
     padding: 10px;
+    width: fit-content;
 }
 .copyright{
     text-align: center;
