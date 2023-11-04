@@ -20,7 +20,7 @@ let Achievements = () =>{
             "platLogo" : codeForcesLogo,
             "platLink" : "https://codeforces.com/profile/deep_1704",
             "platName" : "Codeforces",
-            "platStats" : "(max)Pupil - 1203",
+            "platStats" : "(max)Pupil - 1220",
             "achList" : [
                 "Rank 2517 out of 41k participants, Codeforces round 898 (div-4) "
             ]
