@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Deep_Prajapati_Portfolio/static/css/main.74f8991f.css",
-    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.8e0593b4.js",
+    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.c668592e.js",
     "static/media/AskaDocSS.png": "/Deep_Prajapati_Portfolio/static/media/AskaDocSS.ebe98a94a403caa2dfd3.png",
     "static/media/intro_img1.png": "/Deep_Prajapati_Portfolio/static/media/intro_img1.a124725eff14e9d2bbcc.png",
     "static/media/OpenSans-ExtraBold.ttf": "/Deep_Prajapati_Portfolio/static/media/OpenSans-ExtraBold.6a7a95b823f21d230e6d.ttf",
@@ -26,10 +26,10 @@
     "static/media/linkSvg.svg": "/Deep_Prajapati_Portfolio/static/media/linkSvg.1c8681d46cf6dacecd60885082dc8e9c.svg",
     "index.html": "/Deep_Prajapati_Portfolio/index.html",
     "main.74f8991f.css.map": "/Deep_Prajapati_Portfolio/static/css/main.74f8991f.css.map",
-    "main.8e0593b4.js.map": "/Deep_Prajapati_Portfolio/static/js/main.8e0593b4.js.map"
+    "main.c668592e.js.map": "/Deep_Prajapati_Portfolio/static/js/main.c668592e.js.map"
   },
   "entrypoints": [
     "static/css/main.74f8991f.css",
-    "static/js/main.8e0593b4.js"
+    "static/js/main.c668592e.js"
   ]
 }
