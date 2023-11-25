@@ -16,7 +16,7 @@ let Projects = () => {
                 "Salting and hashing techniques to protect password data."
             ],
             "PTechnologies":["ReactJs","CSS","NodeJs","ExpressJs","MongoDB","JWT Authentication","SocketIO"],
-            "gitLink":"https://github.com/deep-1704/AskaDoc"
+            "gitLink":"https://github.com/deep-1704/AskaDoc#askadoc"
         }
     ]
     return (
