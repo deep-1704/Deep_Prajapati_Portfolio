@@ -45,5 +45,5 @@ ul{
     list-style: inherit;
 }
 .Container{
-    width: 100%;
+    width: fit-content;
 }

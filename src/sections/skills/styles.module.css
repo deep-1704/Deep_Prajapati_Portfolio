@@ -5,6 +5,10 @@
     background-color: var(--tc1);
     padding-top: 50px;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 .skillsTitle{
     color: var(--tc4);
@@ -18,6 +22,11 @@
     font-family: var(--PortFontRegular);
     margin-top: 20px;
     font-size: 20px;
+    width: 70%;
+    line-height: 35px;
+}
+.skillsDescription span{
+    font-family: var(--PortFontBold);
 }
 .skillListContainer{
     margin-top:30px;

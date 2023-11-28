@@ -1,7 +1,6 @@
 .navContainer{
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: sticky;
+    top: 0px;
     width: 100%;
     z-index: 1;
     background-color: var(--bg);
@@ -22,7 +21,8 @@
     font-size: 30px;
     text-align: center;
     padding-top: 15px;
-    width: 15%;
+    margin-left: 8%;
+    width: fit-content;
 }
 .navButton{
     width: fit-content;

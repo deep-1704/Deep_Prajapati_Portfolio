@@ -1,7 +1,7 @@
 .introContainer{
     display: flex;
     justify-content:space-around;
-    padding-top: 240px;
+    padding-top: 130px;
 }
 .domainInfo{
     display: flex;
@@ -10,8 +10,8 @@
 }
 .domainTxt{
     color: var(--tc1);
-    font-family: var(--PortFontRegular);
-    font-size: 40px;
+    font-family: var(--PortFontLight);
+    font-size: 50px;
 }
 .domainAni{
     color: var(--tc4);
@@ -43,12 +43,17 @@
     .introContainer{
         flex-direction: column;
         align-items: center;
+        padding-top: 170px;
+        gap: 20px;
+    }
+    .introduction{
+        width: 100%;
     }
     .domainTxt{
-        font-size: 5vw;
+        font-size: 40px;
     }
     .domainAni{
-        font-size: 2.5vw;
+        font-size: 20px;
     }
     .domainInfo{
         justify-content: center;
@@ -57,12 +62,52 @@
         text-align: center;
     }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 710px) {
+    .introContainer{
+        padding-top: 120px;
+    }
     .greetings1{
-        font-size: 15.5vw;
+        font-size: 50px;
     }
     .greetings2{
-        font-size: 8.5vw;
+        font-size: 40px;
+    }
+    .domainTxt{
+        font-size: 30px;
+    }
+    .domainAni{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .greetings1{
+        font-size: 40px;
+    }
+    .greetings2{
+        font-size: 30px;
+    }
+    .domainTxt{
+        font-size: 20px;
+    }
+    .domainAni{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .introContainer{
+        padding-top: 90px;
+    }
+    .greetings1{
+        font-size: 30px;
+    }
+    .greetings2{
+        font-size: 20px;
+    }
+    .domainTxt{
+        font-size: 12px;
+    }
+    .domainAni{
+        font-size: 10px;
     }
 }
 @keyframes domainAnimation {

@@ -6,85 +6,88 @@
     padding-bottom: 60px;
     padding-top: 60px;
 }
-.eduCards{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
 .eduTitle{
     text-align: center;
-    font-family: 'Open_Sans_EBold';
+    font-family: var(--PortFontEBold);
     color: var(--tc4);
     font-size: 50px;
-    /* padding-top: 15px; */
     padding-bottom: 30px;
 }
-.eduCardContainer{
-    width: 27%;
-    background-color: var(--bg);
-    padding: 2%;
-    border-radius: 20px;
-}
-.eduCardLogo{
+.eduCardUniIntro{
     display: flex;
+    gap: 5%;
+    padding-left: 2%;
+}
+.eduCardUniLogo{
+    width: 150px;
+}
+.eduCardUniNameBranch{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
-.eduCardTitle{
-    color: var(--tc1);
-    text-align: center;
-    font-family: 'Open_Sans_Regular';
-    margin-top: 30px;
-    letter-spacing: 0.5px;
-    padding-bottom: 25px;
-    width: fit-content;
+.eduCardUniName{
+    font-family: var(--PortFontBold);
+    font-size: 30px;
 }
-.eduCardInfoSec{
-    margin-top: 15px;
-    width: fit-content;
+.eduCardUniBranch, .eduCardUniduration{
+    font-family: var(--PortFontRegular);
 }
-.eduCardInfo{
+.flexSec1{
     display: flex;
-    gap: 3%;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    align-items: center;
+    gap: 160px;
+    padding-right: 20px;
 }
-.eduCardInfoKey{
-    color: var(--tc1);
-    font-family: 'Open_Sans_regular';
-    letter-spacing: 1px;
+.eduCardUniCourses{
+    margin-top: 30px;
+    margin-left: 17% ;
 }
-.eduCardInfoVal{
-    color: var(--tc2);
-    font-family: 'Open_Sans_light';
-    letter-spacing: 1px;
+.eduCardUniCoursesTitle{
+    font-family: var(--PortFontBold);
+    font-size: 18px;
 }
-@media screen and (max-width: 1060px) {
-    .eduCardContainer{
-        min-width: 300px;
-        padding: 2%;
-    } 
+.eduCardUniCourseslist{
+    font-family: var(--PortFontRegular);
+    font-size: 18px;
+}
+@media screen and (max-width: 1300px) {
+    .flexSec1{
+        gap: 80px;
+    }
+}
+@media screen and (max-width: 970px) {
+    .flexSec1{
+        flex-direction: column;
+        align-items: start;
+        gap: 0px;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 670px) {
     .eduTitle{
-        font-size: 5.5vw;
+        font-size: 40px;
+    }
+    .eduCardUniName{
+        font-size: 20px;
+    }
+    .eduCardUniBranch, .eduCardUniduration, .eduCardUniCourseslist, .eduCardUniCoursesTitle{
+        font-size: 15px;
     }
 }
-@media screen and (max-width: 680px) {
-    .eduCardContainer{
-        display: flex;
+@media screen and (max-width: 610px) {
+    .eduCardUniIntro{
         flex-direction: column;
         align-items: center;
-        padding: 2%;
-    } 
-    .eduCardInfo{
-        flex-direction: column;
-        align-items: center;
-    }    
-}
-@media screen and (max-width: 336px) {
-    .eduCardTitle, .eduCardInfoKey, .eduCardInfoVal{
-        font-size: 4.5vw;
+        padding-right: 2%;
     }
-    .eduCardContainer{
-        width: 50% !important;
+    .eduCardUniLogo{
+        width: 100px;
+    }
+    .eduCardUniName, .eduCardUniBranch{
+        text-align: center;
+    }
+    .flexSec1{
+        align-items: center;
     }
 }

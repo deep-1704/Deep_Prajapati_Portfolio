@@ -1,34 +1,31 @@
 import styles from "./styles.module.css"
 
-let Educard = ({info}) => {
+let Educard = ({ info }) => {
 
-    return(
+    return (
         <div className={styles.eduCardContainer}>
-            <div className={styles.eduCardLogo}><img src={info.logo} alt="logo" style={{width:"20%"}}/></div>
-            <div className={styles.eduCardTitle}>{info.title}</div>
-            <div className={styles.eduCardInfoSec}>
-                <div className={styles.eduCardInfo}>
-                    <div className={styles.eduCardInfoKey}>Major</div>
-                    <div className={styles.eduCardInfoVal}>{info.major}</div>
-                </div>
-                <div className={styles.eduCardInfo}>
-                    <div className={styles.eduCardInfoKey}>Degree</div>
-                    <div className={styles.eduCardInfoVal}>{info.degree}</div>
-                </div>
-                <div className={styles.eduCardInfo}>
-                    <div className={styles.eduCardInfoKey}>Duration</div>
-                    <div className={styles.eduCardInfoVal}>{info.duration}</div>
-                </div>
-                {info.courses?(<div className={styles.eduCardInfo}>
-                    <div className={styles.eduCardInfoKey}>Courses</div>
-                    <div className={styles.eduCardInfoVal}>
-                        <ul>
-                            {info.courses.map(val => {
-                                return <li>{val}</li>
-                            })}
-                        </ul>
+            <div className={styles.eduCardUniIntro}>
+                <div className={styles.eduCardUniLogo}><img src={info.logo} alt="University Logo" style={{ width: "100%" }} /></div>
+                <div className={styles.flexSec1}>
+                    <div className={styles.eduCardUniNameBranch}>
+                        <div className={styles.eduCardUniName}>{info.title}</div>
+                        <div className={styles.eduCardUniBranch}>{info.degree} in {info.major}</div>
                     </div>
-                </div>):null}
+                    <div className={styles.eduCardUniduration}>{info.duration}</div>
+                </div>
+            </div>
+            <div className={styles.eduCardUniCourses}>
+                <div className={styles.eduCardUniCoursesTitle}>Studying:</div>
+                <div className={styles.eduCardUniCourseslist}>
+                    <ul>
+                        <li>Design and analysis of algorithms</li>
+                        <li>Operating Systems</li>
+                        <li>Computer Architecture</li>
+                        <li>Compiler Design</li>
+                        <li>Database Management Systems</li>
+                        <li>Computer Networks</li>
+                    </ul>
+                </div>
             </div>
         </div>
     );
