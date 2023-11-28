@@ -36,3 +36,8 @@
     gap: 5px;
     color: var(--tc4);
 }
+@media screen and (max-width: 500px) {
+    .endQuote{
+        font-size: 15px;
+    }
+}
