@@ -67,13 +67,34 @@
 .achCardAchList{
     color: var(--tc2);
     font-family: var(--PortFontLight);
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-size: 20px;
 }
-@media screen and (max-width: 575px) {
-    .achTitle{
-        font-size: 5.5vw;
+@media screen and (max-width: 830px){
+    .achCardContainer{
+        max-width: 300px;
+        margin-bottom: 30px;
     }
+    .achTitle{
+        font-size: 30px;
+    }
+    .achDisc{
+        font-size: 15px;
+    }
+    .achievementsContainer{
+        padding-top: 80px;
+    }
+    .achCardPlatLogo{
+        width: 20%;
+    }
+    .achCardPlatName a{
+        font-size: 20px;
+    }
+    .achCardPlatStats, .achCardAchList{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 575px) {
     .achListSec{
         flex-direction: column;
         align-items: center;
