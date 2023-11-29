@@ -13,7 +13,7 @@ let Achievements = () =>{
             "platName" : "CodeChef",
             "platStats" : "(max)⭐️⭐️⭐️ - 1669",
             "achList" : [
-                "Rank 45 out of 3.6k participants, CodeChef Starters 99 (div-3)"
+                "Rank 45 out of 3.6k participants, CodeChef Starters 99 "
             ]
         },
         {
@@ -22,7 +22,7 @@ let Achievements = () =>{
             "platName" : "Codeforces",
             "platStats" : "(max)Pupil - 1220",
             "achList" : [
-                "Rank 2517 out of 41k participants, Codeforces round 898 (div-4) "
+                "Rank 2517 out of 41k participants, Codeforces round 898 "
             ]
         },
         {
