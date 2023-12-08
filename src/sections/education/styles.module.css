@@ -5,6 +5,8 @@
     background-color: var(--tc1);
     padding-bottom: 60px;
     padding-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .eduTitle{
     text-align: center;

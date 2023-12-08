@@ -1,7 +1,18 @@
-.introContainer{
+.introContainer1{
     display: flex;
     justify-content:space-around;
     padding-top: 130px;
+}
+.introDescription{
+    color: var(--tc1);
+    font-family: var(--PortFontLight);
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 1px;
 }
 .domainInfo{
     display: flex;
@@ -40,7 +51,7 @@
     max-width: 500px;
 }
 @media screen and (max-width: 1050px) {
-    .introContainer{
+    .introContainer1{
         flex-direction: column;
         align-items: center;
         padding-top: 170px;
@@ -61,9 +72,13 @@
     .greetings{
         text-align: center;
     }
+    .introDescription{
+        font-size: 17px;
+        line-height: 30px;
+    }
 }
 @media screen and (max-width: 710px) {
-    .introContainer{
+    .introContainer1{
         padding-top: 120px;
     }
     .greetings1{
@@ -77,6 +92,12 @@
     }
     .domainAni{
         font-size: 15px;
+    }
+    .introDescription{
+        font-size: 14px;
+        line-height: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 @media screen and (max-width: 510px) {
@@ -94,7 +115,7 @@
     }
 }
 @media screen and (max-width: 350px) {
-    .introContainer{
+    .introContainer1{
         padding-top: 90px;
     }
     .greetings1{

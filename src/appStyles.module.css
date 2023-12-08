@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;700;800&display=swap');
 
 @font-face {
     font-family: 'Open_Sans_light';
@@ -13,14 +14,39 @@
     font-style: normal;
 }
 @font-face {
+    font-family: 'Open_Sans_Bold';
+    src: url('./assets/Open_Sans/static/OpenSans-Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'Open_Sans_EBold';
     src: url('./assets/Open_Sans/static/OpenSans-ExtraBold.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
-    font-family: 'Open_Sans_Bold';
-    src: url('./assets/Open_Sans/static/OpenSans-Bold.ttf') format('opentype');
+    font-family: 'Encode_Sans_light';
+    src: url('./assets/Encode_Sans/static/EncodeSans-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Encode_Sans_regular';
+    src: url('./assets/Encode_Sans/static/EncodeSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Encode_Sans_Bold';
+    src: url('./assets/Encode_Sans/static/EncodeSans-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Encode_Sans_EBold';
+    src: url('./assets/Encode_Sans/static/EncodeSans-ExtraBold.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,10 +57,10 @@ body{
     --tc2: #ffffff;
     --tc3: #45A29E;
     --tc4: #1F2833;
-    --PortFontLight: 'Open_Sans_light','Ubuntu', sans-serif;
-    --PortFontRegular: 'Open_Sans_regular','Ubuntu', sans-serif;
-    --PortFontEBold: 'Open_Sans_EBold','Ubuntu', sans-serif;
-    --PortFontBold: 'Open_Sans_Bold','Ubuntu', sans-serif;
+    --PortFontLight: 'Encode_Sans_light','Open_Sans_light','Ubuntu', sans-serif;
+    --PortFontRegular: 'Encode_Sans_regular','Open_Sans_regular','Ubuntu', sans-serif;
+    --PortFontEBold: 'Encode_Sans_EBold','Open_Sans_EBold','Ubuntu', sans-serif;
+    --PortFontBold: 'Encode_Sans_Bold','Open_Sans_Bold','Ubuntu', sans-serif;
     background-color: var(--bg);
 }
 a{
