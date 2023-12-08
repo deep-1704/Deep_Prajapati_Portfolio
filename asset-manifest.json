@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Deep_Prajapati_Portfolio/static/css/main.b009dc58.css",
-    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.73aaab68.js",
+    "main.css": "/Deep_Prajapati_Portfolio/static/css/main.be6896fa.css",
+    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.63d3d463.js",
     "static/media/Categories1.png": "/Deep_Prajapati_Portfolio/static/media/Categories1.94a38b3fff7032ab66a5.png",
     "static/media/Categories2.png": "/Deep_Prajapati_Portfolio/static/media/Categories2.a0c54979ad580fb0b085.png",
     "static/media/AskaDocSS.png": "/Deep_Prajapati_Portfolio/static/media/AskaDocSS.ebe98a94a403caa2dfd3.png",
@@ -19,6 +19,10 @@
     "static/media/OpenSans-Bold.ttf": "/Deep_Prajapati_Portfolio/static/media/OpenSans-Bold.45847e90261782dc01a6.ttf",
     "static/media/OpenSans-Regular.ttf": "/Deep_Prajapati_Portfolio/static/media/OpenSans-Regular.9a6cfa5890d7f3eef585.ttf",
     "static/media/OpenSans-Light.ttf": "/Deep_Prajapati_Portfolio/static/media/OpenSans-Light.ba19b360bc99b580b45b.ttf",
+    "static/media/EncodeSans-ExtraBold.ttf": "/Deep_Prajapati_Portfolio/static/media/EncodeSans-ExtraBold.9af6cec3e24bcf1fe319.ttf",
+    "static/media/EncodeSans-Bold.ttf": "/Deep_Prajapati_Portfolio/static/media/EncodeSans-Bold.47603f457b1e034429d2.ttf",
+    "static/media/EncodeSans-Regular.ttf": "/Deep_Prajapati_Portfolio/static/media/EncodeSans-Regular.7e2b3235a12b0cd5f900.ttf",
+    "static/media/EncodeSans-Light.ttf": "/Deep_Prajapati_Portfolio/static/media/EncodeSans-Light.7715c79cb7a1ace29689.ttf",
     "static/media/codeChefLogo.svg": "/Deep_Prajapati_Portfolio/static/media/codeChefLogo.8a7393cf5e2734cc87eb43ac5c4f496f.svg",
     "static/media/reactLogo.svg": "/Deep_Prajapati_Portfolio/static/media/reactLogo.304b3395c6e1f56fd46e9cf4dfb51097.svg",
     "static/media/githubLogo.svg": "/Deep_Prajapati_Portfolio/static/media/githubLogo.2c837e5d34a9e6f105c6c7be0fbc68a3.svg",
@@ -35,11 +39,11 @@
     "static/media/hamMenu.svg": "/Deep_Prajapati_Portfolio/static/media/hamMenu.841d356ccca1879651190f2404578113.svg",
     "static/media/linkSvg.svg": "/Deep_Prajapati_Portfolio/static/media/linkSvg.1c8681d46cf6dacecd60885082dc8e9c.svg",
     "index.html": "/Deep_Prajapati_Portfolio/index.html",
-    "main.b009dc58.css.map": "/Deep_Prajapati_Portfolio/static/css/main.b009dc58.css.map",
-    "main.73aaab68.js.map": "/Deep_Prajapati_Portfolio/static/js/main.73aaab68.js.map"
+    "main.be6896fa.css.map": "/Deep_Prajapati_Portfolio/static/css/main.be6896fa.css.map",
+    "main.63d3d463.js.map": "/Deep_Prajapati_Portfolio/static/js/main.63d3d463.js.map"
   },
   "entrypoints": [
-    "static/css/main.b009dc58.css",
-    "static/js/main.73aaab68.js"
+    "static/css/main.be6896fa.css",
+    "static/js/main.63d3d463.js"
   ]
 }
