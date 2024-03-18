@@ -18,9 +18,9 @@ let Project = ({ info }) => {
     return (
         <div className={styles.projectSection}>
             <div className={styles.projectImageCarousel}>
-                <div className={styles.projectImageCarouselbtn} onClick={e=>moveLeft()}><img src={leftBtn} alt="Left btn" style={{ width: "100%" }} /></div>
+                {(info.PImg.length > 1)?<div className={styles.projectImageCarouselbtn} onClick={e=>moveLeft()}><img src={leftBtn} alt="Left btn" style={{ width: "100%" }} /></div> : <div></div>}
                 <div className={styles.projectImage}><img src={info.PImg[itr]} alt="Project Glimpse" style={{ width: "100%" }} /></div>
-                <div className={styles.projectImageCarouselbtn} onClick={e=>moveRight()}><img src={rightBtn} alt="Right btn" style={{ width: "100%" }} /></div>
+                {(info.PImg.length > 1)?<div className={styles.projectImageCarouselbtn} onClick={e=>moveRight()}><img src={rightBtn} alt="Right btn" style={{ width: "100%" }} /></div> : <div></div>}
             </div>
 
             <div className={styles.projectInfo}>

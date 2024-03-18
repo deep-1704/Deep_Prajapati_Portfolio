@@ -10,14 +10,32 @@ import askadocSS8 from "../../assets/incompleteProfile.png"
 import askadocSS9 from "../../assets/DocProfile.png"
 import askadocSS10 from "../../assets/ChatDtP.png"
 import askadocSS11 from "../../assets/ChatPtD.png"
-import cashCardSS1 from "../../assets/CC_Endpoints.png"
-import cashCardSS2 from "../../assets/CC_TestResults.png"
+import ccfs_cclist from "../../assets/ccfs_cclist.png"
+import ccfs_endpoints from "../../assets/ccfs_endpoints.png"
+import ccfs_landing from "../../assets/ccfs_landing.png"
+import ccfs_login from "../../assets/ccfs_login.png"
+import ccfs_register from "../../assets/ccfs_register.png"
+import ccfs_newcard from "../../assets/ccfs_newcard.png"
+import autograph from "../../assets/autograph.png"
 import Project from "./project";
 
 let Projects = () => {
     let projectSS1 = [askadocSS1,askadocSS2,askadocSS3,askadocSS4,askadocSS5,askadocSS6,askadocSS7,askadocSS8,askadocSS9,askadocSS10,askadocSS11]
-    let projectSS2 = [cashCardSS1,cashCardSS2]
+    let projectSS2 = [ccfs_landing,ccfs_register,ccfs_login,ccfs_newcard,ccfs_cclist,ccfs_endpoints]
+    let projectSS3 = [autograph] 
+
     let info = [
+        {
+            "PImg": projectSS2,
+            "PTitle" : "CashCard - Web-App for managing personal finances",
+            "PDescription" : "A web-app to manage personal finances, track expenses, and manage cash cards.",
+            "PDetails" : [
+                "RESTfulAPI endpoints for data communication.",
+                "Basic authentication using Spring security."
+            ],
+            "PTechnologies":["ReactJs","ChakraUI","SpringBoot","Spring-Security","MySQL"],
+            "gitLink":"https://github.com/deep-1704/CashCardFullStack"
+        },
         {
             "PImg": projectSS1,
             "PTitle" : "AskaDoc - Online Consultancy Web-App",
@@ -33,15 +51,17 @@ let Projects = () => {
             "gitLink":"https://github.com/deep-1704/AskaDoc#askadoc"
         },
         {
-            "PImg": projectSS2,
-            "PTitle" : "CashCard API",
-            "PDescription" : "A cash card service API to manage children's allowances in a modern way.",
+            "PImg": projectSS3,
+            "PTitle" : "AutoGraph - A Graph framework for Java",
+            "PDescription" : "A Java based graph framework which makes it easy to implement Graph related DSA in competitive programming as well as in real-world projects.",
             "PDetails" : [
-                "Built RESTful API end-points secured with Spring Security in a layered manner.",
-                "Implemented TDD(Test Driven Development) to ensure correctness",
+                "Implementation of Graph data structure and algorithms.",
+                "Start implementing graph algorithms by just creating a graph object.",
+                "Built on top of SOLID principles for extensibility.",
+                "Still working on it, so complete jar dependency will be available soon."
             ],
-            "PTechnologies":["Spring MVC", "Spring Data JPA", "Spring Security", "JUnit", "Gradle"],
-            "gitLink":"https://github.com/deep-1704/CashCard"
+            "PTechnologies":["Java", "Gradle", "JUnit"],
+            "gitLink":"https://github.com/deep-1704/AutoGraph"
         }
     ]
     return (
@@ -50,8 +70,7 @@ let Projects = () => {
                 <div className={styles.projectsTitle}>Projects</div>
                 <div className={styles.projectsDesc}>Here are some of the major projects I've worked on.</div>
                 <div className={styles.projectsList}>
-                    <Project info={info[0]}/>
-                    <Project info={info[1]}/>
+                    {info.map(project => <Project info={project} />) }
                 </div>
             </div>
         </div>
