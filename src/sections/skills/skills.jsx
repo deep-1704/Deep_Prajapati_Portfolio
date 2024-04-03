@@ -3,7 +3,7 @@ import frontendLogo from "../../assets/frontendLogo.svg";
 import backendLogo from "../../assets/backendLogo.svg";
 import devToolsLogo from "../../assets/devToolsLogo.svg";
 import hardwareLogo from "../../assets/hardwareLogo.svg";
-import cudaLogo from "../../assets/cudaLogo.png";
+// import cudaLogo from "../../assets/cudaLogo.png";
 
 let Skills = () => {
     return (
@@ -26,13 +26,21 @@ let Skills = () => {
                         <div className={styles.skillsCatLogo}><img src={backendLogo} alt="logo" style={{ width: "100%" }} /></div>
                         <div className={styles.skillsCatTitle}>Backend</div>
                         <div className={styles.skillsCatList}>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="Logo" style={{ width: "100px" }}/>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" alt="Logo" style={{ width: "100px" }}/>
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" alt="Logo" style={{ width: "100px" }}/>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="Logo" style={{ width: "100px" }} />
+                        </div>
+                    </div>
+                    <div className={styles.skillsDatabase}>
+                        <div className={styles.skillsCatLogo}><img src={hardwareLogo} alt="logo" style={{ width: "100%" }} /></div>
+                        <div className={styles.skillsCatTitle}>Database</div>
+                        <div className={styles.skillsCatList}>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" alt="Logo" style={{ width: "100px" }} />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                         </div>
                     </div>
@@ -42,18 +50,9 @@ let Skills = () => {
                         <div className={styles.skillsCatList}>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original-wordmark.svg" alt="Logo" style={{ width: "100px" }}/>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" alt="Logo" style={{ width: "100px" }} />
-                        </div>
-                    </div>
-                    <div className={styles.skillsHardware}>
-                        <div className={styles.skillsCatLogo}><img src={hardwareLogo} alt="logo" style={{ width: "100%" }} /></div>
-                        <div className={styles.skillsCatTitle}>Hardware Oriented</div>
-                        <div className={styles.skillsCatList}>
-
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="Logo" style={{ width: "100px" }} />
-                            <img src={cudaLogo} alt="Logo" style={{ width: "100px" }} />
                         </div>
                     </div>
                 </div>
