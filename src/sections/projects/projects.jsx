@@ -17,14 +17,31 @@ import ccfs_login from "../../assets/ccfs_login.png"
 import ccfs_register from "../../assets/ccfs_register.png"
 import ccfs_newcard from "../../assets/ccfs_newcard.png"
 import autograph from "../../assets/autograph.png"
+import openskillSS1 from "../../assets/OpenSkill_LP.png"
+import openskillSS2 from "../../assets/Openskill_signup.png"
+import openskillSS3 from "../../assets/Openskill_login.png"
 import Project from "./project";
 
 let Projects = () => {
     let projectSS1 = [askadocSS1,askadocSS2,askadocSS3,askadocSS4,askadocSS5,askadocSS6,askadocSS7,askadocSS8,askadocSS9,askadocSS10,askadocSS11]
     let projectSS2 = [ccfs_landing,ccfs_register,ccfs_login,ccfs_newcard,ccfs_cclist,ccfs_endpoints]
     let projectSS3 = [autograph] 
+    let projectSS4 = [openskillSS1, openskillSS2, openskillSS3]
 
     let info = [
+        {
+            "PImg": projectSS4,
+            "PTitle" : "OpenSkill - A job posting and job search platform",
+            "PDescription" : "An online platform for job seekers to find jobs and for employers to post job openings.",
+            "PDetails" : [
+                "Register as a job seeker or an employer.",
+                "Search for jobs based on categories.",
+                "Apply for jobs and track application status.",
+                "Post job openings and view applications."
+            ],
+            "PTechnologies":["ReactJs","ChakraUI","Spring Boot", "Oracle 21c", "JWT Authentication"],
+            "gitLink":"https://github.com/deep-1704/Job-Posting-Web-App"
+        },
         {
             "PImg": projectSS1,
             "PTitle" : "AskaDoc - Online Consultancy Web-App",
