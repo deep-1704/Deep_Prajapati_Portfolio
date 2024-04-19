@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Deep_Prajapati_Portfolio/static/css/main.83617b43.css",
-    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.3dd053b2.js",
+    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.8b4dee79.js",
     "static/media/Categories1.png": "/Deep_Prajapati_Portfolio/static/media/Categories1.94a38b3fff7032ab66a5.png",
     "static/media/Categories2.png": "/Deep_Prajapati_Portfolio/static/media/Categories2.a0c54979ad580fb0b085.png",
+    "static/media/OpenSkill_LP.png": "/Deep_Prajapati_Portfolio/static/media/OpenSkill_LP.accfaba26c614848e682.png",
     "static/media/AskaDocSS.png": "/Deep_Prajapati_Portfolio/static/media/AskaDocSS.ebe98a94a403caa2dfd3.png",
     "static/media/intro_img1.png": "/Deep_Prajapati_Portfolio/static/media/intro_img1.a124725eff14e9d2bbcc.png",
     "static/media/autograph.png": "/Deep_Prajapati_Portfolio/static/media/autograph.93856ed8762eed2a81c7.png",
@@ -13,7 +14,9 @@
     "static/media/hp2.png": "/Deep_Prajapati_Portfolio/static/media/hp2.406b7135e3606193952d.png",
     "static/media/DoctorList.png": "/Deep_Prajapati_Portfolio/static/media/DoctorList.19ea49eb010b45e117ba.png",
     "static/media/Login.png": "/Deep_Prajapati_Portfolio/static/media/Login.4274aa07c202c9882c6f.png",
+    "static/media/Openskill_signup.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_signup.a069e461ffa08159d912.png",
     "static/media/Signup.png": "/Deep_Prajapati_Portfolio/static/media/Signup.3c8885634fc48b35b216.png",
+    "static/media/Openskill_login.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_login.e466a4bef9025f9fb990.png",
     "static/media/incompleteProfile.png": "/Deep_Prajapati_Portfolio/static/media/incompleteProfile.59c2c8ba7c6aa61efc08.png",
     "static/media/ccfs_endpoints.png": "/Deep_Prajapati_Portfolio/static/media/ccfs_endpoints.eec87eec8b388b94dd98.png",
     "static/media/iitbbsLogo.png": "/Deep_Prajapati_Portfolio/static/media/iitbbsLogo.ccd94d0933a1b9d78c60.png",
@@ -47,10 +50,10 @@
     "static/media/linkSvg.svg": "/Deep_Prajapati_Portfolio/static/media/linkSvg.1c8681d46cf6dacecd60885082dc8e9c.svg",
     "index.html": "/Deep_Prajapati_Portfolio/index.html",
     "main.83617b43.css.map": "/Deep_Prajapati_Portfolio/static/css/main.83617b43.css.map",
-    "main.3dd053b2.js.map": "/Deep_Prajapati_Portfolio/static/js/main.3dd053b2.js.map"
+    "main.8b4dee79.js.map": "/Deep_Prajapati_Portfolio/static/js/main.8b4dee79.js.map"
   },
   "entrypoints": [
     "static/css/main.83617b43.css",
-    "static/js/main.3dd053b2.js"
+    "static/js/main.8b4dee79.js"
   ]
 }
