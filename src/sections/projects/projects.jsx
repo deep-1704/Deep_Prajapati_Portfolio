@@ -26,29 +26,29 @@ let Projects = () => {
 
     let info = [
         {
-            "PImg": projectSS2,
-            "PTitle" : "CashCard - Web-App for managing personal finances",
-            "PDescription" : "A web-app to manage personal finances, track expenses, and manage cash cards.",
-            "PDetails" : [
-                "RESTfulAPI endpoints for data communication.",
-                "Basic authentication using Spring security."
-            ],
-            "PTechnologies":["ReactJs","ChakraUI","SpringBoot","Spring-Security","MySQL"],
-            "gitLink":"https://github.com/deep-1704/CashCardFullStack"
-        },
-        {
             "PImg": projectSS1,
             "PTitle" : "AskaDoc - Online Consultancy Web-App",
             "PDescription" : "An online platform connecting patients with a wide range of expert doctors for efficient and accessible medical consultations via chat.",
             "PDetails" : [
-                "Implementation of RESTfulAPI endpoints for data communication.",
-                "Token-based authentication for secure API access.",
-                "Implementation of userroles(doctor and patient) for differentiated access.",
-                "Real-time chat functionality for doctors and patients.",
-                "Salting and hashing techniques to protect password data."
+                "Register as a patient or a doctor.",
+                "Search for doctors based on categories.",
+                "Chat with doctors and get medical advice.",
+                "View doctor's profile and book appointments."
             ],
             "PTechnologies":["ReactJs","CSS","NodeJs","ExpressJs","MongoDB","JWT Authentication","SocketIO"],
             "gitLink":"https://github.com/deep-1704/AskaDoc#askadoc"
+        },
+        {
+            "PImg": projectSS2,
+            "PTitle" : "CashCard - Web-App for managing personal finances",
+            "PDescription" : "A web-app to manage personal finances, track expenses, and manage cash cards.",
+            "PDetails" : [
+                "Create cash cards with name and balance.",
+                "Simulate expenses of the cash cards by updating amounts.",
+                "Can create and delete multiple cash cards."
+            ],
+            "PTechnologies":["ReactJs","ChakraUI","SpringBoot","Spring-Security","MySQL"],
+            "gitLink":"https://github.com/deep-1704/CashCardFullStack"
         },
         {
             "PImg": projectSS3,
