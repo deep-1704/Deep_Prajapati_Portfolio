@@ -10,7 +10,7 @@ let Skills = () => {
         <div className={styles.skillsContainer} id="skills">
             <div className={styles.skillsSection}>
                 <div className={styles.skillsTitle}>Skills</div>
-                <div className={styles.skillsDescription}>I love building <span>backend applications</span>, participating in <span>competitive programming</span> and understanding <span>hardware architectures</span>.<br />I have experience with these technologies.</div>
+                <div className={styles.skillsDescription}>I love building <span>backend applications</span>, and designing <span>Scalable Systems</span>.<br />I have experience with these technologies.</div>
                 <div className={styles.skillListContainer}>
                     <div className={styles.skillsFrontend}>
                         <div className={styles.skillsCatLogo}><img src={frontendLogo} alt="logo" style={{ width: "100%" }} /></div>
