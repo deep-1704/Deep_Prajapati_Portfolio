@@ -29,7 +29,7 @@ let Skills = () => {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" alt="Logo" style={{ width: "100px" }}/>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="Logo" style={{ width: "100px" }} />
@@ -42,6 +42,7 @@ let Skills = () => {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                         </div>
                     </div>
                     <div className={styles.skillsDevtools}>
@@ -51,8 +52,7 @@ let Skills = () => {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Logo" style={{ width: "100px" }} />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" alt="Logo" style={{ width: "100px" }} />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                         </div>
                     </div>
                 </div>
