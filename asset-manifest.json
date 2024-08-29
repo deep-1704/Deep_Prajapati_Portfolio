@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Deep_Prajapati_Portfolio/static/css/main.83617b43.css",
-    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.2bdb3db4.js",
+    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.e5990d9b.js",
     "static/media/Categories1.png": "/Deep_Prajapati_Portfolio/static/media/Categories1.94a38b3fff7032ab66a5.png",
     "static/media/Categories2.png": "/Deep_Prajapati_Portfolio/static/media/Categories2.a0c54979ad580fb0b085.png",
     "static/media/OpenSkill_LP.png": "/Deep_Prajapati_Portfolio/static/media/OpenSkill_LP.accfaba26c614848e682.png",
@@ -50,10 +50,10 @@
     "static/media/linkSvg.svg": "/Deep_Prajapati_Portfolio/static/media/linkSvg.1c8681d46cf6dacecd60885082dc8e9c.svg",
     "index.html": "/Deep_Prajapati_Portfolio/index.html",
     "main.83617b43.css.map": "/Deep_Prajapati_Portfolio/static/css/main.83617b43.css.map",
-    "main.2bdb3db4.js.map": "/Deep_Prajapati_Portfolio/static/js/main.2bdb3db4.js.map"
+    "main.e5990d9b.js.map": "/Deep_Prajapati_Portfolio/static/js/main.e5990d9b.js.map"
   },
   "entrypoints": [
     "static/css/main.83617b43.css",
-    "static/js/main.2bdb3db4.js"
+    "static/js/main.e5990d9b.js"
   ]
 }
