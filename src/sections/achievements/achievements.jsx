@@ -51,7 +51,7 @@ let Achievements = () => {
             "platLogo": leetCodeLogo,
             "platLink": "https://leetcode.com/lemonadeCode_1704/",
             "platName": "LeetCode",
-            "platStats": "(max)Rating - 1765",
+            "platStats": "(max)Rating - 1817",
             "achList": [
                 "Rank 1117 out of 19k participants, LeetCode Weekly Contest 368 "
             ]
