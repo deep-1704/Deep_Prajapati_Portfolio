@@ -44,7 +44,7 @@ let Achievements = () => {
             "platName": "Codeforces",
             "platStats": `(max)${cfRating.rank} - ${cfRating.rating}`,
             "achList": [
-                "Rank 2517 out of 41k participants, Codeforces round 898 "
+                "Rank 1442 out of 37k participants, Codeforces round 898 "
             ]
         },
         {
