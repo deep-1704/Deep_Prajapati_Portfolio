@@ -51,7 +51,7 @@ let Achievements = () => {
             "platLogo": leetCodeLogo,
             "platLink": "https://leetcode.com/lemonadeCode_1704/",
             "platName": "LeetCode",
-            "platStats": "(max)Rating - 1817",
+            "platStats": "(max)Rating - 1841",
             "achList": [
                 "Rank 1117 out of 19k participants, LeetCode Weekly Contest 368 "
             ]
@@ -64,8 +64,8 @@ let Achievements = () => {
                 <div className={styles.achDisc}>I'm proud to have achievements  in some of the well-reputed platforms.</div>
                 <div className={styles.achListSec}>
                     <AchCard info={info[0]} />
-                    <AchCard info={info[2]} />
                     <AchCard info={info[1]} />
+                    <AchCard info={info[2]} />
                 </div>
             </div>
         </div>

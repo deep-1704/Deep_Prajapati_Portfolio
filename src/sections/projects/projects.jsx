@@ -20,13 +20,21 @@ import autograph from "../../assets/autograph.png"
 import openskillSS1 from "../../assets/OpenSkill_LP.png"
 import openskillSS2 from "../../assets/Openskill_signup.png"
 import openskillSS3 from "../../assets/Openskill_login.png"
+import openskillSS4 from "../../assets/Openskill_js_applications.png"
+import openskillSS5 from "../../assets/Openskill_js_apply.png"
+import openskillSS6 from "../../assets/Openskill_js_jd.png"
+import openskillSS7 from "../../assets/Openskill_js_jobs.png"
+import openskillSS8 from "../../assets/Openskill_js_profile.png"
+import openskillSS9 from "../../assets/Openskill_jp_applications.png"
+import openskillSS10 from "../../assets/Openskill_jp_jd.png"
+import openskillSS11 from "../../assets/Openskill_jp_jobs.png"
 import Project from "./project";
 
 let Projects = () => {
     let projectSS1 = [askadocSS1,askadocSS2,askadocSS3,askadocSS4,askadocSS5,askadocSS6,askadocSS7,askadocSS8,askadocSS9,askadocSS10,askadocSS11]
     let projectSS2 = [ccfs_landing,ccfs_register,ccfs_login,ccfs_newcard,ccfs_cclist,ccfs_endpoints]
     let projectSS3 = [autograph] 
-    let projectSS4 = [openskillSS1, openskillSS2, openskillSS3]
+    let projectSS4 = [openskillSS1, openskillSS2, openskillSS3, openskillSS4, openskillSS5, openskillSS6, openskillSS7, openskillSS8, openskillSS9, openskillSS10, openskillSS11]
 
     let info = [
         {
