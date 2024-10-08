@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Deep_Prajapati_Portfolio/static/css/main.83617b43.css",
-    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.a3bdc0d0.js",
+    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.2ea6379a.js",
     "static/media/Categories1.png": "/Deep_Prajapati_Portfolio/static/media/Categories1.94a38b3fff7032ab66a5.png",
     "static/media/Categories2.png": "/Deep_Prajapati_Portfolio/static/media/Categories2.a0c54979ad580fb0b085.png",
     "static/media/OpenSkill_LP.png": "/Deep_Prajapati_Portfolio/static/media/OpenSkill_LP.accfaba26c614848e682.png",
@@ -21,9 +21,12 @@
     "static/media/ccfs_endpoints.png": "/Deep_Prajapati_Portfolio/static/media/ccfs_endpoints.eec87eec8b388b94dd98.png",
     "static/media/iitbbsLogo.png": "/Deep_Prajapati_Portfolio/static/media/iitbbsLogo.ccd94d0933a1b9d78c60.png",
     "static/media/ccfs_cclist.png": "/Deep_Prajapati_Portfolio/static/media/ccfs_cclist.618e3065a335479690ac.png",
+    "static/media/Openskill_js_apply.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_js_apply.fa41c1c79ee92df87694.png",
+    "static/media/Openskill_js_jd.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_js_jd.e7d178dd6c3a3a2f8fde.png",
     "static/media/ccfs_newcard.png": "/Deep_Prajapati_Portfolio/static/media/ccfs_newcard.be948f11067bf5b32e16.png",
     "static/media/ccfs_register.png": "/Deep_Prajapati_Portfolio/static/media/ccfs_register.8db054681ce2ac315332.png",
     "static/media/ccfs_login.png": "/Deep_Prajapati_Portfolio/static/media/ccfs_login.43992e939b7f3fa3d38a.png",
+    "static/media/Openskill_jp_jd.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_jp_jd.b1fc400701997c51cc8f.png",
     "static/media/OpenSans-ExtraBold.ttf": "/Deep_Prajapati_Portfolio/static/media/OpenSans-ExtraBold.6a7a95b823f21d230e6d.ttf",
     "static/media/OpenSans-Bold.ttf": "/Deep_Prajapati_Portfolio/static/media/OpenSans-Bold.45847e90261782dc01a6.ttf",
     "static/media/OpenSans-Regular.ttf": "/Deep_Prajapati_Portfolio/static/media/OpenSans-Regular.9a6cfa5890d7f3eef585.ttf",
@@ -32,7 +35,12 @@
     "static/media/EncodeSans-Bold.ttf": "/Deep_Prajapati_Portfolio/static/media/EncodeSans-Bold.47603f457b1e034429d2.ttf",
     "static/media/EncodeSans-Regular.ttf": "/Deep_Prajapati_Portfolio/static/media/EncodeSans-Regular.7e2b3235a12b0cd5f900.ttf",
     "static/media/EncodeSans-Light.ttf": "/Deep_Prajapati_Portfolio/static/media/EncodeSans-Light.7715c79cb7a1ace29689.ttf",
+    "static/media/Openskill_js_profile.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_js_profile.d740fc0f7f3e4c622f7f.png",
+    "static/media/Openskill_js_jobs.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_js_jobs.21d408f062993c4d59d5.png",
     "static/media/ccfs_landing.png": "/Deep_Prajapati_Portfolio/static/media/ccfs_landing.ff548ffa6c92657d667b.png",
+    "static/media/Openskill_jp_jobs.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_jp_jobs.7f8afd1d16c08da10ca2.png",
+    "static/media/Openskill_js_applications.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_js_applications.b7335119d2e8487cd8e1.png",
+    "static/media/Openskill_jp_applications.png": "/Deep_Prajapati_Portfolio/static/media/Openskill_jp_applications.5414f8fd83ce48a995b2.png",
     "static/media/codeChefLogo.svg": "/Deep_Prajapati_Portfolio/static/media/codeChefLogo.8a7393cf5e2734cc87eb43ac5c4f496f.svg",
     "static/media/reactLogo.svg": "/Deep_Prajapati_Portfolio/static/media/reactLogo.304b3395c6e1f56fd46e9cf4dfb51097.svg",
     "static/media/githubLogo.svg": "/Deep_Prajapati_Portfolio/static/media/githubLogo.2c837e5d34a9e6f105c6c7be0fbc68a3.svg",
@@ -50,10 +58,10 @@
     "static/media/linkSvg.svg": "/Deep_Prajapati_Portfolio/static/media/linkSvg.1c8681d46cf6dacecd60885082dc8e9c.svg",
     "index.html": "/Deep_Prajapati_Portfolio/index.html",
     "main.83617b43.css.map": "/Deep_Prajapati_Portfolio/static/css/main.83617b43.css.map",
-    "main.a3bdc0d0.js.map": "/Deep_Prajapati_Portfolio/static/js/main.a3bdc0d0.js.map"
+    "main.2ea6379a.js.map": "/Deep_Prajapati_Portfolio/static/js/main.2ea6379a.js.map"
   },
   "entrypoints": [
     "static/css/main.83617b43.css",
-    "static/js/main.a3bdc0d0.js"
+    "static/js/main.2ea6379a.js"
   ]
 }
