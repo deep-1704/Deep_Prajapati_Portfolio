@@ -43,16 +43,18 @@ let Skills = () => {
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original-wordmark.svg" alt="Logo" style={{ width: "100px" }}/>
                         </div>
                     </div>
                     <div className={styles.skillsDevtools}>
                         <div className={styles.skillsCatLogo}><img src={devToolsLogo} alt="logo" style={{ width: "100%" }} /></div>
-                        <div className={styles.skillsCatTitle}>Dev-Tools</div>
+                        <div className={styles.skillsCatTitle}>CI/CD</div>
                         <div className={styles.skillsCatList}>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original-wordmark.svg" alt="Logo" style={{ width: "100px" }} />
                         </div>
                     </div>
                 </div>
