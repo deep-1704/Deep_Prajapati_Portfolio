@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "company": "Samsung Research Institute, Noida",
+        "logo": "/Users/deepprajapati/Desktop/Lets_Program/webd/Deep_Prajapati_Portfolio/src/assets/SamsungLogo.jpg",
+        "duration": {
+            "start": {
+                "month": 6,
+                "year": 2025
+            },
+            "end": {
+                "month": -1,
+                "year": -1
+            }
+        },
+        "positions": [
+            {
+                "id": "p1",
+                "title": "SDE-1",
+                "duration": {
+                    "start": {
+                        "month": 6,
+                        "year": 2025
+                    },
+                    "end": {
+                        "month": -1,
+                        "year": -1
+                    }
+                },
+                "responsibilities": [
+                    "Developed scalable web applications using React and Node.js.",
+                    "Optimized database queries reducing load time by 30%."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "company": "Terabh Intelligence",
+        "logo": "https://via.placeholder.com/150",
+        "duration": {
+            "start": {
+                "month": 5,
+                "year": 2024
+            },
+            "end": {
+                "month": 7,
+                "year": 2024
+            }
+        },
+        "positions": [
+            {
+                "id": "p2",
+                "title": "Backend Developer Intern",
+                "duration": {
+                    "start": {
+                        "month": 1,
+                        "year": 2023
+                    },
+                    "end": {
+                        "month": 6,
+                        "year": 2023
+                    }
+                },
+                "responsibilities": [
+                    "Assisted in frontend development using HTML, CSS, and JavaScript.",
+                    "Collaborated with the design team to implement UI/UX improvements."
+                ]
+            }
+        ]
+    }
+]

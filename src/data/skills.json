@@ -1,0 +1,48 @@
+{
+    "categories": [
+        {
+            "title": "Languages",
+            "skills": [
+                "JavaScript (ES6+)",
+                "TypeScript",
+                "Python",
+                "Java",
+                "C++",
+                "SQL"
+            ]
+        },
+        {
+            "title": "Frontend",
+            "skills": [
+                "React",
+                "Next.js",
+                "Redux",
+                "Tailwind CSS",
+                "Framer Motion",
+                "HTML5/CSS3"
+            ]
+        },
+        {
+            "title": "Backend",
+            "skills": [
+                "Node.js",
+                "Express",
+                "Django",
+                "PostgreSQL",
+                "MongoDB",
+                "Redis"
+            ]
+        },
+        {
+            "title": "Tools & DevOps",
+            "skills": [
+                "Git",
+                "Docker",
+                "AWS",
+                "Firebase",
+                "Jest",
+                "CI/CD"
+            ]
+        }
+    ]
+}

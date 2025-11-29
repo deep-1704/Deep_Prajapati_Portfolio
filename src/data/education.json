@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "degree": "Bachelor of Technology in Computer Science",
+        "institution": "University of Technology",
+        "location": "City, Country",
+        "year": "2019 - 2023",
+        "score": "CGPA: 9.0/10"
+    },
+    {
+        "id": 2,
+        "degree": "Higher Secondary Education",
+        "institution": "Public School",
+        "location": "City, Country",
+        "year": "2017 - 2019",
+        "score": "Percentage: 95%"
+    }
+]

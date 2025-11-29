@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Photography",
+        "icon": "FaCamera",
+        "description": "Capturing moments and exploring visual storytelling."
+    },
+    {
+        "id": 2,
+        "name": "Gaming",
+        "icon": "FaGamepad",
+        "description": "Strategy games and competitive e-sports."
+    },
+    {
+        "id": 3,
+        "name": "Reading",
+        "icon": "FaBook",
+        "description": "Sci-fi novels and technical blogs."
+    },
+    {
+        "id": 4,
+        "name": "Traveling",
+        "icon": "FaPlane",
+        "description": "Exploring new cultures and cuisines."
+    }
+]

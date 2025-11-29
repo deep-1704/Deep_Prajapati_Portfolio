@@ -1,0 +1,63 @@
+[
+    {
+        "id": 1,
+        "title": "E-Commerce Platform",
+        "description": "A full-stack e-commerce solution with real-time inventory management and payment processing.",
+        "techStack": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Stripe"
+        ],
+        "links": {
+            "github": "https://github.com",
+            "live": "https://example.com"
+        },
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Task Management App",
+        "description": "Collaborative task manager with drag-and-drop interface and team features.",
+        "techStack": [
+            "Next.js",
+            "Firebase",
+            "Tailwind"
+        ],
+        "links": {
+            "github": "https://github.com",
+            "live": "https://example.com"
+        },
+        "featured": true
+    },
+    {
+        "id": 3,
+        "title": "Weather Dashboard",
+        "description": "Real-time weather tracking application with historical data visualization.",
+        "techStack": [
+            "React",
+            "D3.js",
+            "OpenWeather API"
+        ],
+        "links": {
+            "github": "https://github.com",
+            "live": "https://example.com"
+        },
+        "featured": false
+    },
+    {
+        "id": 4,
+        "title": "Portfolio Website",
+        "description": "Modern developer portfolio with dark mode and smooth animations.",
+        "techStack": [
+            "React",
+            "Tailwind",
+            "Framer Motion"
+        ],
+        "links": {
+            "github": "https://github.com",
+            "live": "https://example.com"
+        },
+        "featured": false
+    }
+]
