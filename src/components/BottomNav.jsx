@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaCode, FaBriefcase, FaFolderOpen, FaTrophy, FaEnvelope, FaGraduationCap, FaGamepad } from 'react-icons/fa';
+import { FaHome, FaBriefcase, FaCode, FaFolderOpen, FaEnvelope, FaGraduationCap, FaGamepad } from 'react-icons/fa';
 import { HashLink } from 'react-router-hash-link';
 
 const BottomNav = () => {
@@ -9,7 +9,6 @@ const BottomNav = () => {
         { path: '#education', icon: <FaGraduationCap />, label: 'Edu' },
         { path: '#projects', icon: <FaFolderOpen />, label: 'Proj' },
         { path: '#skills', icon: <FaCode />, label: 'Skills' },
-        { path: '#achievements', icon: <FaTrophy />, label: 'Awards' },
         { path: '#hobbies', icon: <FaGamepad />, label: 'Hobby' },
         { path: '#contact', icon: <FaEnvelope />, label: 'Contact' },
     ];

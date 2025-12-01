@@ -14,7 +14,7 @@ const Contact = () => {
                 viewport={{ once: true }}
                 className="max-w-2xl px-4"
             >
-                <h2 className="text-accent font-mono text-lg mb-4">08. What's Next?</h2>
+                <h2 className="text-accent font-mono text-lg mb-4">What's Next?</h2>
                 <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">{contactData.title}</h2>
                 <p className="text-gray-400 text-lg mb-12 leading-relaxed">
                     {contactData.description}

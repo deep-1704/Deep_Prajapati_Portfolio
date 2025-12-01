@@ -9,7 +9,6 @@ import Education from './sections/education/Education';
 // Placeholder components
 import Skills from './sections/skills/Skills';
 import Projects from './sections/projects/Projects';
-import Achievements from './sections/achievements/Achievements';
 import Hobbies from './sections/hobbies/Hobbies';
 import Contact from './sections/contact/Contact';
 
@@ -24,7 +23,6 @@ function App() {
                 <Education />
                 <Projects />
                 <Skills />
-                <Achievements />
                 <Hobbies />
                 <Contact />
             </Layout>

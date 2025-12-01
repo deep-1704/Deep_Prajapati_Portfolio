@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaCode, FaBriefcase, FaFolderOpen, FaTrophy, FaEnvelope, FaGraduationCap, FaGamepad, FaTerminal } from 'react-icons/fa';
+import { FaHome, FaCode, FaBriefcase, FaFolderOpen, FaEnvelope, FaGraduationCap, FaGamepad, FaTerminal } from 'react-icons/fa';
 import { HashLink } from 'react-router-hash-link';
 
 const Sidebar = () => {
@@ -9,7 +9,6 @@ const Sidebar = () => {
         { path: '#education', icon: <FaGraduationCap />, label: 'Education' },
         { path: '#projects', icon: <FaFolderOpen />, label: 'Projects' },
         { path: '#skills', icon: <FaCode />, label: 'Skills' },
-        { path: '#achievements', icon: <FaTrophy />, label: 'Achievements' },
         { path: '#hobbies', icon: <FaGamepad />, label: 'Hobbies' },
         { path: '#contact', icon: <FaEnvelope />, label: 'Contact' },
     ];

@@ -1,26 +1,41 @@
 [
     {
-        "id": 1,
-        "name": "Photography",
-        "icon": "FaCamera",
-        "description": "Capturing moments and exploring visual storytelling."
-    },
-    {
-        "id": 2,
+        "id": "gaming",
         "name": "Gaming",
         "icon": "FaGamepad",
-        "description": "Strategy games and competitive e-sports."
+        "details": {
+            "game": "Valorant",
+            "main": "Jett",
+            "username": "lemonade69",
+            "rank": "Iron 3"
+        }
     },
     {
-        "id": 3,
-        "name": "Reading",
-        "icon": "FaBook",
-        "description": "Sci-fi novels and technical blogs."
-    },
-    {
-        "id": 4,
-        "name": "Traveling",
-        "icon": "FaPlane",
-        "description": "Exploring new cultures and cuisines."
+        "id": "cooking",
+        "name": "Cooking",
+        "icon": "FaUtensils",
+        "description": "Exploring Indian and Indo-Chinese Cuisine",
+        "gallery": [
+            {
+                "name": "Paneer Tikka",
+                "image": "https://placehold.co/300x200?text=Paneer+Tikka"
+            },
+            {
+                "name": "Chilli Chicken",
+                "image": "https://placehold.co/300x200?text=Chilli+Chicken"
+            },
+            {
+                "name": "Biryani",
+                "image": "https://placehold.co/300x200?text=Biryani"
+            },
+            {
+                "name": "Hakka Noodles",
+                "image": "https://placehold.co/300x200?text=Hakka+Noodles"
+            },
+            {
+                "name": "Butter Chicken",
+                "image": "https://placehold.co/300x200?text=Butter+Chicken"
+            }
+        ]
     }
 ]
