@@ -1,63 +1,141 @@
 [
     {
         "id": 1,
-        "title": "E-Commerce Platform",
-        "description": "A full-stack e-commerce solution with real-time inventory management and payment processing.",
+        "title": "AskaDoc",
+        "description": "A comprehensive doctor appointment and consultation platform connecting patients with healthcare professionals.",
         "techStack": [
             "React",
             "Node.js",
             "MongoDB",
-            "Stripe"
+            "Express"
+        ],
+        "additionalTechStack": [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Postman",
+            "JWT"
+        ],
+        "features": [
+            "Patient and Doctor profiles with dashboard",
+            "Real-time chat functionality (ChatDtP, ChatPtD)",
+            "Appointment booking system",
+            "Secure authentication (Login/Signup)",
+            "Medical category browsing"
+        ],
+        "images": [
+            "ScreenShots/AskaDoc/AskaDocSS.png",
+            "ScreenShots/AskaDoc/Login.png",
+            "ScreenShots/AskaDoc/DoctorList.png",
+            "ScreenShots/AskaDoc/ChatDtP.png",
+            "ScreenShots/AskaDoc/Categories1.png"
         ],
         "links": {
-            "github": "https://github.com",
-            "live": "https://example.com"
+            "github": "https://github.com/deep-1704",
+            "live": "#"
         },
-        "featured": true
+        "featured": true,
+        "type": "Major"
     },
     {
         "id": 2,
-        "title": "Task Management App",
-        "description": "Collaborative task manager with drag-and-drop interface and team features.",
+        "title": "OpenSkill",
+        "description": "A dynamic job portal bridging the gap between job seekers and recruiters with streamlined application processes.",
         "techStack": [
-            "Next.js",
-            "Firebase",
-            "Tailwind"
+            "MERN Stack",
+            "Redux",
+            "Tailwind CSS"
+        ],
+        "additionalTechStack": [
+            "Git",
+            "GitHub",
+            "Figma",
+            "REST API"
+        ],
+        "features": [
+            "Job posting and application management",
+            "Job seeker and Recruiter dashboards",
+            "Detailed job descriptions and profile views",
+            "Application status tracking",
+            "Responsive landing page"
+        ],
+        "images": [
+            "ScreenShots/OpenSkill/OpenSkill_LP.png",
+            "ScreenShots/OpenSkill/Openskill_login.png",
+            "ScreenShots/OpenSkill/Openskill_js_jobs.png",
+            "ScreenShots/OpenSkill/Openskill_jp_applications.png",
+            "ScreenShots/OpenSkill/Openskill_js_apply.png"
         ],
         "links": {
-            "github": "https://github.com",
-            "live": "https://example.com"
+            "github": "https://github.com/deep-1704",
+            "live": "#"
         },
-        "featured": true
+        "featured": true,
+        "type": "Major"
     },
     {
         "id": 3,
-        "title": "Weather Dashboard",
-        "description": "Real-time weather tracking application with historical data visualization.",
+        "title": "CashCard",
+        "description": "A fintech dashboard for managing credit cards, transactions, and financial analytics.",
         "techStack": [
             "React",
-            "D3.js",
-            "OpenWeather API"
+            "Chart.js",
+            "Styled Components"
+        ],
+        "additionalTechStack": [
+            "JavaScript",
+            "HTML5/CSS3",
+            "Git"
+        ],
+        "features": [
+            "Interactive financial dashboard",
+            "Credit card management (Add/View cards)",
+            "Transaction history visualization",
+            "Endpoint testing results display",
+            "Secure user registration and login"
+        ],
+        "images": [
+            "ScreenShots/CashCard/ccfs_landing.png",
+            "ScreenShots/CashCard/ccfs_login.png",
+            "ScreenShots/CashCard/ccfs_newcard.png",
+            "ScreenShots/CashCard/ccfs_cclist.png",
+            "ScreenShots/CashCard/CC_TestResults.png"
         ],
         "links": {
-            "github": "https://github.com",
-            "live": "https://example.com"
+            "github": "https://github.com/deep-1704",
+            "live": "#"
         },
-        "featured": false
+        "featured": false,
+        "type": "Learning"
     },
     {
         "id": 4,
-        "title": "Portfolio Website",
-        "description": "Modern developer portfolio with dark mode and smooth animations.",
+        "title": "Autograph",
+        "description": "A digital signature application allowing users to create, save, and use digital signatures.",
         "techStack": [
             "React",
-            "Tailwind",
-            "Framer Motion"
+            "HTML5 Canvas",
+            "CSS3"
+        ],
+        "additionalTechStack": [
+            "JavaScript",
+            "Git"
+        ],
+        "features": [
+            "Digital signature creation using canvas",
+            "Save signature as image",
+            "Customizable pen stroke and color",
+            "Clean and minimalist interface",
+            "Instant preview"
+        ],
+        "images": [
+            "ScreenShots/Autograph/autograph.png"
         ],
         "links": {
-            "github": "https://github.com",
-            "live": "https://example.com"
+            "github": "https://github.com/deep-1704",
+            "live": "#"
         },
-        "featured": false
+        "featured": false,
+        "type": "Major"
     }
 ]

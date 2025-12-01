@@ -26,8 +26,8 @@ const Education = () => {
                         className="bg-secondary/50 p-8 rounded-xl border border-gray-800 hover:border-accent/50 transition-colors duration-300 flex flex-col justify-between"
                     >
                         <div>
-                            <div className="flex items-center gap-3 mb-4 text-accent">
-                                <FaGraduationCap className="text-2xl" />
+                            <div className="flex items-start gap-3 mb-4 text-accent">
+                                <FaGraduationCap className="text-2xl flex-shrink-0 mt-1" />
                                 <h3 className="text-xl font-bold leading-tight">{edu.degree}</h3>
                             </div>
 
@@ -39,7 +39,7 @@ const Education = () => {
                             <p className="text-gray-400 text-sm mb-4">{edu.location}</p>
                         </div>
 
-                        <div className="flex justify-between items-center pt-4 border-t border-gray-800 mt-4">
+                        <div className="flex flex-col md:flex-row md:justify-between items-start md:items-center gap-2 md:gap-0 pt-4 border-t border-gray-800 mt-4">
                             <span className="font-mono text-gray-300 bg-white/5 px-3 py-1 rounded">
                                 {edu.year}
                             </span>
