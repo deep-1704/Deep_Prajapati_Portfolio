@@ -1,18 +1,26 @@
 [
     {
         "id": 1,
-        "degree": "Bachelor of Technology in Computer Science",
-        "institution": "University of Technology",
-        "location": "City, Country",
-        "year": "2019 - 2023",
-        "score": "CGPA: 9.0/10"
+        "degree": "B.Tech in Computer Science and Engineering",
+        "institution": "Indian Institute of Technology, Bhubaneswar",
+        "location": "Bhubaneswar, Odisha, India",
+        "year": "2021 - 2025",
+        "score": "CGPA: 7.62/10"
     },
     {
         "id": 2,
-        "degree": "Higher Secondary Education",
-        "institution": "Public School",
-        "location": "City, Country",
-        "year": "2017 - 2019",
-        "score": "Percentage: 95%"
+        "degree": "Higher Secondary Education (Grade 12th)",
+        "institution": "Puna International School",
+        "location": "Gandhinagar, Gujarat, India",
+        "year": "2020 - 2021",
+        "score": "Percentage: 83%"
+    },
+    {
+        "id": 3,
+        "degree": "Secondary Education (Grade 10th)",
+        "institution": "Jawahar Navodaya Vidyalaya, Mehsana",
+        "location": "Vadnagar, Gujarat, India",
+        "year": "2018 - 2019",
+        "score": "Percentage: 89%"
     }
 ]

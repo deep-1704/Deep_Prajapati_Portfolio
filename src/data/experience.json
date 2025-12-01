@@ -2,7 +2,6 @@
     {
         "id": 1,
         "company": "Samsung Research Institute, Noida",
-        "logo": "/Users/deepprajapati/Desktop/Lets_Program/webd/Deep_Prajapati_Portfolio/src/assets/SamsungLogo.jpg",
         "duration": {
             "start": {
                 "month": 6,
@@ -28,13 +27,16 @@
                     }
                 },
                 "responsibilities": [
-                    "Developed scalable web applications using React and Node.js.",
-                    "Optimized database queries reducing load time by 30%."
+                    "Worked on Samsung Email Application maintenance and assisted in several issue resolution.",
+                    "Developed an issue resolving agent using in-house LLM along with an analysis storing and retrieving system that allows the agent to refer to previous issues' analysis to resolve new issues, saving several hours of manual analysis."
                 ],
                 "techStack": [
-                    "React",
-                    "Node.js",
-                    "Database"
+                    "Android",
+                    "Java",
+                    "Kotlin",
+                    "Python",
+                    "JavaScript",
+                    "Git"
                 ]
             }
         ]
@@ -42,7 +44,6 @@
     {
         "id": 2,
         "company": "Terabh Intelligence",
-        "logo": "https://via.placeholder.com/150",
         "duration": {
             "start": {
                 "month": 5,
@@ -59,22 +60,25 @@
                 "title": "Backend Developer Intern",
                 "duration": {
                     "start": {
-                        "month": 1,
-                        "year": 2023
+                        "month": 5,
+                        "year": 2024
                     },
                     "end": {
-                        "month": 6,
-                        "year": 2023
+                        "month": 7,
+                        "year": 2024
                     }
                 },
                 "responsibilities": [
-                    "Assisted in frontend development using HTML, CSS, and JavaScript.",
-                    "Collaborated with the design team to implement UI/UX improvements."
+                    "Developed an AI assistant that manages several daily tasks like managing emails, calendar-events, To-Do lists, and more.",
+                    "Built a feature that allows users to talk to other user's assistants and get information from them."
                 ],
                 "techStack": [
-                    "HTML",
-                    "CSS",
-                    "JavaScript"
+                    "Python",
+                    "Fast-API",
+                    "PostgreSQL",
+                    "Redis",
+                    "Docker",
+                    "Git"
                 ]
             }
         ]
