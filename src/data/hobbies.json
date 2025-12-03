@@ -17,24 +17,40 @@
         "description": "Exploring Indian and Indo-Chinese Cuisine",
         "gallery": [
             {
-                "name": "Paneer Tikka",
-                "image": "https://placehold.co/300x200?text=Paneer+Tikka"
+                "name": "Fried Rice",
+                "image": "../assets/Cooking/FriedRice.jpeg"
             },
             {
-                "name": "Chilli Chicken",
-                "image": "https://placehold.co/300x200?text=Chilli+Chicken"
+                "name": "Aloo Sabji",
+                "image": "../assets/Cooking/aloosabji.jpeg"
             },
             {
-                "name": "Biryani",
-                "image": "https://placehold.co/300x200?text=Biryani"
+                "name": "Bhindi Pyaz",
+                "image": "../assets/Cooking/BhindiPyaz.jpeg"
             },
             {
-                "name": "Hakka Noodles",
-                "image": "https://placehold.co/300x200?text=Hakka+Noodles"
+                "name": "Sooji Uttapam",
+                "image": "../assets/Cooking/soojiUttapam.jpeg"
             },
             {
-                "name": "Butter Chicken",
-                "image": "https://placehold.co/300x200?text=Butter+Chicken"
+                "name": "Aloo Bhindi",
+                "image": "../assets/Cooking/AlooBhindi.jpeg"
+            },
+            {
+                "name": "Chana Masala",
+                "image": "../assets/Cooking/ChanaMasala.jpeg"
+            },
+            {
+                "name": "Pizza",
+                "image": "../assets/Cooking/Pizza.jpeg"
+            },
+            {
+                "name": "Soya Chilli",
+                "image": "../assets/Cooking/SoyaChilli.jpeg"
+            },
+            {
+                "name": "Veggi Wraps",
+                "image": "../assets/Cooking/VeggiWraps.jpeg"
             }
         ]
     }

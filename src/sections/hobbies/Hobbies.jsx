@@ -8,6 +8,21 @@ const iconMap = {
     FaUtensils: <FaUtensils />
 };
 
+// Import all cooking images
+const cookingImagesContext = require.context('../../assets/Cooking', false, /\.(png|jpe?g|svg)$/);
+
+const getCookingImage = (imagePath) => {
+    try {
+        // Extract filename from path (e.g., "../assets/Cooking/FriedRice.jpeg" -> "FriedRice.jpeg")
+        const filename = imagePath.split('/').pop();
+        // Resolve using require.context
+        return cookingImagesContext(`./${filename}`);
+    } catch (error) {
+        console.warn(`Image not found: ${imagePath}`);
+        return imagePath;
+    }
+};
+
 const Hobbies = () => {
     return (
         <section id="hobbies" className="min-h-screen py-20 flex flex-col justify-center">
@@ -67,7 +82,7 @@ const Hobbies = () => {
                                     <p className="text-gray-300 mb-6">{hobby.description}</p>
 
                                     {/* Carousel Container */}
-                                    <div className="relative flex-1 overflow-hidden group">
+                                    <div className="relative flex-1 overflow-hidden group min-h-[9rem]">
                                         <motion.div
                                             className="flex gap-4 absolute left-0"
                                             animate={{ x: ["0%", "-50%"] }}
@@ -82,7 +97,7 @@ const Hobbies = () => {
                                             {[...hobby.gallery, ...hobby.gallery].map((item, i) => (
                                                 <div key={i} className="relative w-48 h-32 flex-shrink-0 rounded-lg overflow-hidden border border-gray-700">
                                                     <img
-                                                        src={item.image}
+                                                        src={getCookingImage(item.image)}
                                                         alt={item.name}
                                                         className="w-full h-full object-cover"
                                                     />
