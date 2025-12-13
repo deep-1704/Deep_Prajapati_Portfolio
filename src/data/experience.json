@@ -36,7 +36,10 @@
                     "Kotlin",
                     "Python",
                     "JavaScript",
-                    "Git"
+                    "Git",
+                    "C++",
+                    "C",
+                    "SQL"
                 ]
             }
         ]
@@ -76,6 +79,7 @@
                     "Python",
                     "Fast-API",
                     "PostgreSQL",
+                    "SQL",
                     "Redis",
                     "Docker",
                     "Git"

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "AskaDoc",
-        "description": "A comprehensive doctor appointment and consultation platform connecting patients with healthcare professionals.",
+        "description": "A doctor appointment and consultation platform that allows patients to have conversation with doctors of any category.",
         "techStack": [
             "React",
             "Node.js",
@@ -12,27 +12,31 @@
         "additionalTechStack": [
             "Git",
             "GitHub",
-            "VS Code",
-            "Postman",
+            "SocketIO",
             "JWT"
         ],
         "features": [
-            "Patient and Doctor profiles with dashboard",
-            "Real-time chat functionality (ChatDtP, ChatPtD)",
-            "Appointment booking system",
-            "Secure authentication (Login/Signup)",
-            "Medical category browsing"
+            "Real-time chat functionality",
+            "Doctors can build their profiles which patients can refer to",
+            "Choose doctors by category and experience",
+            "Secure authentication using JWT"
         ],
         "images": [
-            "ScreenShots/AskaDoc/AskaDocSS.png",
-            "ScreenShots/AskaDoc/Login.png",
-            "ScreenShots/AskaDoc/DoctorList.png",
-            "ScreenShots/AskaDoc/ChatDtP.png",
-            "ScreenShots/AskaDoc/Categories1.png"
+            "../assets/ScreenShots/AskaDoc/AskaDocSS.png",
+            "../assets/ScreenShots/AskaDoc/Categories1.png",
+            "../assets/ScreenShots/AskaDoc/Categories2.png",
+            "../assets/ScreenShots/AskaDoc/ChatDtP.png",
+            "../assets/ScreenShots/AskaDoc/ChatPtD.png",
+            "../assets/ScreenShots/AskaDoc/DocProfile.png",
+            "../assets/ScreenShots/AskaDoc/DoctorList.png",
+            "../assets/ScreenShots/AskaDoc/hp2.png",
+            "../assets/ScreenShots/AskaDoc/incompleteProfile.png",
+            "../assets/ScreenShots/AskaDoc/Login.png",
+            "../assets/ScreenShots/AskaDoc/Signup.png"
         ],
         "links": {
-            "github": "https://github.com/deep-1704",
-            "live": "#"
+            "github": "https://github.com/deep-1704/AskaDoc",
+            "live": ""
         },
         "featured": true,
         "type": "Major"
@@ -40,35 +44,44 @@
     {
         "id": 2,
         "title": "OpenSkill",
-        "description": "A dynamic job portal bridging the gap between job seekers and recruiters with streamlined application processes.",
+        "description": "A job portal that helps recruiters to post jobs and job seekers to apply for jobs.",
         "techStack": [
-            "MERN Stack",
-            "Redux",
-            "Tailwind CSS"
+            "Spring",
+            "Spring Boot",
+            "React",
+            "Oracle"
         ],
         "additionalTechStack": [
             "Git",
             "GitHub",
-            "Figma",
-            "REST API"
+            "SQL",
+            "JWT",
+            "Chakra UI"
         ],
         "features": [
             "Job posting and application management",
             "Job seeker and Recruiter dashboards",
             "Detailed job descriptions and profile views",
             "Application status tracking",
-            "Responsive landing page"
+            "Filtering applications based on skills",
+            "Shortlisting and rejecting algorithms"
         ],
         "images": [
-            "ScreenShots/OpenSkill/OpenSkill_LP.png",
-            "ScreenShots/OpenSkill/Openskill_login.png",
-            "ScreenShots/OpenSkill/Openskill_js_jobs.png",
-            "ScreenShots/OpenSkill/Openskill_jp_applications.png",
-            "ScreenShots/OpenSkill/Openskill_js_apply.png"
+            "../assets/ScreenShots/OpenSkill/OpenSkill_LP.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_jp_applications.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_jp_jd.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_jp_jobs.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_js_applications.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_js_apply.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_js_jd.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_js_jobs.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_js_profile.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_login.png",
+            "../assets/ScreenShots/OpenSkill/Openskill_signup.png"
         ],
         "links": {
-            "github": "https://github.com/deep-1704",
-            "live": "#"
+            "github": "https://github.com/deep-1704/Job-Posting-Web-App",
+            "live": ""
         },
         "featured": true,
         "type": "Major"
@@ -76,34 +89,32 @@
     {
         "id": 3,
         "title": "CashCard",
-        "description": "A fintech dashboard for managing credit cards, transactions, and financial analytics.",
+        "description": "A CRUD based dashboard for managing CashCards (A card with an owner and an amount).",
         "techStack": [
             "React",
-            "Chart.js",
-            "Styled Components"
+            "Spring",
+            "Spring Boot",
+            "MySql"
         ],
         "additionalTechStack": [
-            "JavaScript",
-            "HTML5/CSS3",
-            "Git"
+            "Git",
+            "GitHub",
+            "SQL"
         ],
         "features": [
-            "Interactive financial dashboard",
-            "Credit card management (Add/View cards)",
-            "Transaction history visualization",
-            "Endpoint testing results display",
-            "Secure user registration and login"
+            "CRUD on CashCards",
+            "Login/Signup functionality"
         ],
         "images": [
-            "ScreenShots/CashCard/ccfs_landing.png",
-            "ScreenShots/CashCard/ccfs_login.png",
-            "ScreenShots/CashCard/ccfs_newcard.png",
-            "ScreenShots/CashCard/ccfs_cclist.png",
-            "ScreenShots/CashCard/CC_TestResults.png"
+            "../assets/ScreenShots/CashCard/ccfs_landing.png",
+            "../assets/ScreenShots/CashCard/ccfs_login.png",
+            "../assets/ScreenShots/CashCard/ccfs_newcard.png",
+            "../assets/ScreenShots/CashCard/ccfs_cclist.png",
+            "../assets/ScreenShots/CashCard/CC_TestResults.png"
         ],
         "links": {
-            "github": "https://github.com/deep-1704",
-            "live": "#"
+            "github": "https://github.com/deep-1704/CashCardFullStack",
+            "live": ""
         },
         "featured": false,
         "type": "Learning"
@@ -111,31 +122,60 @@
     {
         "id": 4,
         "title": "Autograph",
-        "description": "A digital signature application allowing users to create, save, and use digital signatures.",
+        "description": "A Java-based graph framework that makes it easy to implement Graph related DSA.",
         "techStack": [
-            "React",
-            "HTML5 Canvas",
-            "CSS3"
+            "Java"
         ],
         "additionalTechStack": [
-            "JavaScript",
-            "Git"
+            "Gradle",
+            "Git",
+            "GitHub"
         ],
         "features": [
-            "Digital signature creation using canvas",
-            "Save signature as image",
-            "Customizable pen stroke and color",
-            "Clean and minimalist interface",
-            "Instant preview"
+            "Create a directed/undirected graph with a single line of code",
+            "Includes serveral graph algorithms like BFS, Dijkstra, Eularian Path, etc."
         ],
         "images": [
-            "ScreenShots/Autograph/autograph.png"
+            "../assets/ScreenShots/Autograph/autograph.png"
         ],
         "links": {
-            "github": "https://github.com/deep-1704",
-            "live": "#"
+            "github": "https://github.com/deep-1704/AutoGraph",
+            "live": ""
         },
         "featured": false,
         "type": "Major"
+    },
+    {
+        "id": 5,
+        "title": "Microservice based E-commerce platform",
+        "description": "Tried implementing a microservice based E-commerce platform for learning purposes.",
+        "techStack": [
+            "Spring",
+            "Spring Boot",
+            "PostgreSQL",
+            "MongoDB",
+            "Redis",
+            "Docker",
+            "Kubernetes"
+        ],
+        "additionalTechStack": [
+            "Git",
+            "GitHub",
+            "SQL"
+        ],
+        "features": [
+            "Product listing service",
+            "Order management service"
+        ],
+        "images": [
+            "../assets/ScreenShots/Microservice/MS_EC_OM.png",
+            "../assets/ScreenShots/Microservice/MS_EC_PS.png"
+        ],
+        "links": {
+            "github": "https://github.com/deep-1704/microservices-based-ecommerce",
+            "live": ""
+        },
+        "featured": false,
+        "type": "Learning"
     }
 ]

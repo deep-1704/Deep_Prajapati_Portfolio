@@ -3,34 +3,32 @@
         {
             "title": "Languages",
             "skills": [
-                "JavaScript (ES6+)",
-                "TypeScript",
+                "C++",
                 "Python",
                 "Java",
-                "C++",
-                "SQL"
+                "JavaScript",
+                "SQL",
+                "Kotlin",
+                "C"
             ]
         },
         {
-            "title": "Frontend",
+            "title": "Frameworks",
             "skills": [
+                "Spring",
+                "Spring Boot",
                 "React",
-                "Next.js",
-                "Redux",
-                "Tailwind CSS",
-                "Framer Motion",
-                "HTML5/CSS3"
+                "Node.js"
             ]
         },
         {
-            "title": "Backend",
+            "title": "Database",
             "skills": [
-                "Node.js",
-                "Express",
-                "Django",
                 "PostgreSQL",
+                "Redis",
                 "MongoDB",
-                "Redis"
+                "Oracle",
+                "MySql"
             ]
         },
         {
@@ -38,10 +36,7 @@
             "skills": [
                 "Git",
                 "Docker",
-                "AWS",
-                "Firebase",
-                "Jest",
-                "CI/CD"
+                "Kubernetes"
             ]
         }
     ]

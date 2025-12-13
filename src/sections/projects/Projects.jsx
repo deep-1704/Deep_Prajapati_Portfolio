@@ -1,24 +1,47 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaFolder, FaTimes, FaArrowRight } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt, FaFolder, FaTimes, FaArrowRight, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import projectsData from '../../data/projects.json';
 
 // Dynamically import all images from assets folder
-const assets = require.context('../../assets', false, /\.(png|jpe?g|svg)$/);
+const assets = require.context('../../assets', true, /\.(png|jpe?g|svg)$/);
 
 const getAssetPath = (path) => {
     try {
-        const filename = path.split('/').pop();
-        return assets(`./${filename}`);
+        // Remove ../assets/ prefix if present and ensure ./ prefix
+        const cleanPath = path.replace('../assets/', '').replace(/^\//, '');
+        return assets(`./${cleanPath}`);
     } catch (err) {
+        console.error(`Error loading image: ${path}`, err);
         return path;
     }
 };
 
 const Projects = () => {
     const [selectedId, setSelectedId] = useState(null);
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const selectedProject = projectsData.find(p => p.id === selectedId);
+
+    const nextImage = () => {
+        if (selectedProject?.images) {
+            setCurrentImageIndex((prev) =>
+                prev === selectedProject.images.length - 1 ? 0 : prev + 1
+            );
+        }
+    };
+
+    const prevImage = () => {
+        if (selectedProject?.images) {
+            setCurrentImageIndex((prev) =>
+                prev === 0 ? selectedProject.images.length - 1 : prev - 1
+            );
+        }
+    };
+
+    useEffect(() => {
+        setCurrentImageIndex(0);
+    }, [selectedId]);
 
     useEffect(() => {
         if (selectedId) {
@@ -43,7 +66,7 @@ const Projects = () => {
             </motion.h2>
 
             <div className="max-w-6xl mx-auto px-4 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {projectsData.map((project, index) => (
+                {projectsData.filter(project => project.type === "Major").map((project, index) => (
                     <motion.div
                         key={project.id}
                         id={`project-${project.id}`}
@@ -192,20 +215,57 @@ const Projects = () => {
                                     </div>
                                 </div>
 
-                                {/* Image Gallery */}
+                                {/* Image Carousel */}
                                 {selectedProject.images && selectedProject.images.length > 0 && (
                                     <div>
                                         <h4 className="text-xl font-bold text-accent mb-4">Gallery</h4>
-                                        <div className="space-y-4">
-                                            {selectedProject.images.map((img, index) => (
-                                                <div key={index} className="rounded-lg overflow-hidden border border-gray-800">
-                                                    <img
-                                                        src={getAssetPath(img)}
-                                                        alt={`${selectedProject.title} screenshot ${index + 1} `}
-                                                        className="w-full h-auto object-cover"
-                                                    />
+                                        <div className="flex flex-col gap-4">
+                                            <div className="relative rounded-lg overflow-hidden border border-gray-800 group/carousel">
+                                                <img
+                                                    src={getAssetPath(selectedProject.images[currentImageIndex])}
+                                                    alt={`${selectedProject.title} screenshot ${currentImageIndex + 1}`}
+                                                    className="w-full h-auto object-cover"
+                                                />
+                                            </div>
+
+                                            {selectedProject.images.length > 1 && (
+                                                <div className="flex items-center justify-center gap-4">
+                                                    <button
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            prevImage();
+                                                        }}
+                                                        className="bg-gray-800 hover:bg-gray-700 text-white p-2 rounded-full transition-colors"
+                                                    >
+                                                        <FaChevronLeft />
+                                                    </button>
+
+                                                    {/* Dots Indicator */}
+                                                    <div className="flex gap-2">
+                                                        {selectedProject.images.map((_, index) => (
+                                                            <button
+                                                                key={index}
+                                                                onClick={(e) => {
+                                                                    e.stopPropagation();
+                                                                    setCurrentImageIndex(index);
+                                                                }}
+                                                                className={`w-2 h-2 rounded-full transition-colors ${index === currentImageIndex ? 'bg-accent' : 'bg-gray-600 hover:bg-gray-500'
+                                                                    }`}
+                                                            />
+                                                        ))}
+                                                    </div>
+
+                                                    <button
+                                                        onClick={(e) => {
+                                                            e.stopPropagation();
+                                                            nextImage();
+                                                        }}
+                                                        className="bg-gray-800 hover:bg-gray-700 text-white p-2 rounded-full transition-colors"
+                                                    >
+                                                        <FaChevronRight />
+                                                    </button>
                                                 </div>
-                                            ))}
+                                            )}
                                         </div>
                                     </div>
                                 )}
