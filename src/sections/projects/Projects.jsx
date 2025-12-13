@@ -62,7 +62,7 @@ const Projects = () => {
                 transition={{ duration: 0.5 }}
                 className="text-4xl font-bold mb-16 text-center font-mono text-accent"
             >
-                &lt;Projects /&gt;
+                &lt; Major Projects / &gt;
             </motion.h2>
 
             <div className="max-w-6xl mx-auto px-4 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
