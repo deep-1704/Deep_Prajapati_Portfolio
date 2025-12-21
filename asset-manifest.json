@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Deep_Prajapati_Portfolio/static/css/main.de7ce7ec.css",
-    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.ac4db323.js",
+    "main.css": "/Deep_Prajapati_Portfolio/static/css/main.01c9d86c.css",
+    "main.js": "/Deep_Prajapati_Portfolio/static/js/main.8487501e.js",
     "static/media/Categories1.png": "/Deep_Prajapati_Portfolio/static/media/Categories1.94a38b3fff7032ab66a5.png",
     "static/media/Categories2.png": "/Deep_Prajapati_Portfolio/static/media/Categories2.a0c54979ad580fb0b085.png",
     "static/media/OpenSkill_LP.png": "/Deep_Prajapati_Portfolio/static/media/OpenSkill_LP.accfaba26c614848e682.png",
@@ -70,11 +70,11 @@
     "static/media/hamMenu.svg": "/Deep_Prajapati_Portfolio/static/media/hamMenu.841d356ccca187965119.svg",
     "static/media/linkSvg.svg": "/Deep_Prajapati_Portfolio/static/media/linkSvg.1c8681d46cf6dacecd60.svg",
     "index.html": "/Deep_Prajapati_Portfolio/index.html",
-    "main.de7ce7ec.css.map": "/Deep_Prajapati_Portfolio/static/css/main.de7ce7ec.css.map",
-    "main.ac4db323.js.map": "/Deep_Prajapati_Portfolio/static/js/main.ac4db323.js.map"
+    "main.01c9d86c.css.map": "/Deep_Prajapati_Portfolio/static/css/main.01c9d86c.css.map",
+    "main.8487501e.js.map": "/Deep_Prajapati_Portfolio/static/js/main.8487501e.js.map"
   },
   "entrypoints": [
-    "static/css/main.de7ce7ec.css",
-    "static/js/main.ac4db323.js"
+    "static/css/main.01c9d86c.css",
+    "static/js/main.8487501e.js"
   ]
 }
