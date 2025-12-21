@@ -37,13 +37,13 @@ const Intro = () => {
             >
                 <motion.div variants={itemVariants}>
                     <h2 className="text-accent font-mono text-lg mb-2">Hi, my name is</h2>
-                    <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight">
+                    <h1 className="text-4xl md:text-7xl font-bold text-white tracking-tight">
                         {introData.name}
                     </h1>
                 </motion.div>
 
                 <motion.div variants={itemVariants}>
-                    <h2 className="text-3xl md:text-5xl font-bold text-muted">
+                    <h2 className="text-2xl md:text-5xl font-bold text-muted">
                         {introData.role}
                     </h2>
                 </motion.div>
