@@ -28,8 +28,8 @@
                 },
                 "responsibilities": [
                     "Built an AI-powered issue resolution agent using an internal LLM, RAG, and developed log-analysis tools using Python, JavaScript, MCP, and Agentic AI to automate issue investigation by referencing historical cases, cutting issue investigation time by approximately 98%.",
-                    "Resolved a high power-consumption issue in the Samsung Email application by implementing an exponential backoff strategy for failed authentication retries, releasing device wakelocks between attempts and reducing email synchronization power usage by approximately 95%.",
-                    "Developed user-configurable laser scanning features for Samsung Knox Capture using Android (Kotlin), enabling customization of scanner behavior for enterprise deployments."
+                    "Developed user-configurable laser scanning features for Samsung Knox Capture using Android (Kotlin), enabling customization of scanner behavior for enterprise deployments.",
+                    "Resolved several Protocol, Email-Attachment, and UI related bugs in Samsung Email Application."
                 ],
                 "techStack": [
                     "Android",
